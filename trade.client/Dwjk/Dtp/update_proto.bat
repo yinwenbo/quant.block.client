@@ -1,0 +1,1 @@
+protoc -I=./ --csharp_out=./ dtp.api.proto dtp.type.proto

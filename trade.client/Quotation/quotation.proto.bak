@@ -1,0 +1,251 @@
+syntax = "proto3";
+
+package quotation;
+
+message Stock {
+	string szWindCode          = 1;      //Wind代码
+	string szCode              = 2;      //原始代码
+	int32 nActionDay           = 3;      //业务发生日
+	int32 nTradingDay          = 4;     
+	int32 nTime                = 5; 
+	int32 nStatus              = 6; 
+	int64 nPreClose            = 7; 
+	int64 nOpen                = 8; 
+	int64 nHigh                = 9; 
+	int64 nLow                 = 10; 
+	int64 nMatch               = 11; 
+	int64 nAskPrice_0          = 12; 
+	int64 nAskPrice_1          = 13; 
+	int64 nAskPrice_2          = 14; 
+	int64 nAskPrice_3          = 15; 
+	int64 nAskPrice_4          = 16; 
+	int64 nAskPrice_5          = 17; 
+	int64 nAskPrice_6          = 18; 
+	int64 nAskPrice_7          = 19; 
+	int64 nAskPrice_8          = 20; 
+	int64 nAskPrice_9          = 21; 
+	int64 nAskVol_0            = 22; 
+	int64 nAskVol_1            = 23; 
+	int64 nAskVol_2            = 24; 
+	int64 nAskVol_3            = 25; 
+	int64 nAskVol_4            = 26; 
+	int64 nAskVol_5            = 27; 
+	int64 nAskVol_6            = 28; 
+	int64 nAskVol_7            = 29; 
+	int64 nAskVol_8            = 30; 
+	int64 nAskVol_9            = 31; 
+	int64 nBidPrice_0          = 32; 
+	int64 nBidPrice_1          = 33; 
+	int64 nBidPrice_2          = 34; 
+	int64 nBidPrice_3          = 35; 
+	int64 nBidPrice_4          = 36; 
+	int64 nBidPrice_5          = 37; 
+	int64 nBidPrice_6          = 38; 
+	int64 nBidPrice_7          = 39; 
+	int64 nBidPrice_8          = 40; 
+	int64 nBidPrice_9          = 41; 
+	int64 nBidVol_0            = 42; 
+	int64 nBidVol_1            = 43; 
+	int64 nBidVol_2			= 44; 
+	int64 nBidVol_3			= 45; 
+	int64 nBidVol_4			= 46; 
+	int64 nBidVol_5			= 47; 
+	int64 nBidVol_6			= 48; 
+	int64 nBidVol_7			= 49; 
+	int64 nBidVol_8			= 50; 
+	int64 nBidVol_9			= 51; 
+	int32 nNumTrades 			= 52; 
+	int64 iVolume 				= 53; 
+	int64 iTurnover 			= 54; 
+	int64 nTotalBidVol 		= 55; 
+	int64 nTotalAskVol 		= 56; 
+	int64 nWeightedAvgBidPrice	= 57;  
+	int64 nWeightedAvgAskPrice = 58; 
+	int32 nIOPV 				= 59; 
+	int32 nYieldToMaturity		= 60;  
+	int64 nHighLimited 		= 61; 
+	int64 nLowLimited 			= 62; 
+	string chPrefix			= 63; 
+	int32 nSyl1 				= 64; 
+	int32 nSyl2 				= 65; 
+	int32 nSD2 				= 66; 
+	int32 nLocalTime           = 67;
+}
+
+message StockBlock
+{
+	int32 nItemCount = 1;
+	repeated Stock stock      = 2;
+}
+
+message Future {
+	string szWindCode       = 1; 
+	string szCode           = 2; 
+	int32 nActionDay        = 3; 
+	int32 nTradingDay       = 4; 
+	int32 nTime             = 5; 
+	int32 nStatus           = 6; 
+	int64 iPreOpenInterest  = 7; 
+	int64 nPreClose         = 8;
+	uint32 nPreSettlePrice  = 9;
+	int64 nOpen             = 10;
+	int64 nHigh             = 11;
+	int64 nLow              = 12;
+	int64 nMatch            = 13;
+	int64 iVolume           = 14;
+	int64 iTurnover         = 15;
+	int64 iOpenInterest     = 16;
+	int64 nClose            = 17;
+	uint32 nSettlePrice     = 18;
+	int64 nHighLimited      = 19; 
+	int64 nLowLimited       = 20;
+	int32 nPreDelta         = 21;
+	int32 nCurrDelta        = 22;
+	int64 nAskPrice_0       = 23;
+	int64 nAskPrice_1       = 24;
+	int64 nAskPrice_2       = 25;
+	int64 nAskPrice_3       = 26;
+	int64 nAskPrice_4       = 27;
+	int64 nAskVol_0         = 28;
+	int64 nAskVol_1         = 29;
+	int64 nAskVol_2         = 30;
+	int64 nAskVol_3         = 31;
+	int64 nAskVol_4         = 32;
+	int64 nBidPrice_0       = 33;
+	int64 nBidPrice_1       = 34;
+	int64 nBidPrice_2       = 35;
+	int64 nBidPrice_3       = 36;
+	int64 nBidPrice_4       = 37;
+	int64 nBidVol_0         = 38;
+	int64 nBidVol_1         = 39;
+	int64 nBidVol_2         = 40;
+	int64 nBidVol_3         = 41;
+	int64 nBidVol_4         = 42;
+	int64 nAuctionPrice     = 43; 
+	int32 nAuctionQty       = 44;
+	int32 nAvgPrice         = 45;
+	int32 nLocalTime        = 46;
+}
+
+message FutureBlock
+{
+	int32 nItemCount = 1;
+	repeated Future future    = 2;
+}
+
+message Index
+{
+	string szWindCode    = 1; 
+	string szCode        = 2; 
+	int32 nActionDay     = 3; 
+	int32 nTradingDay    = 4; 
+	int32 nTime          = 5; 
+	int64 nOpenIndex     = 6; 
+	int64 nHighIndex     = 7; 
+	int64 nLowIndex      = 8; 
+	int64 nLastIndex     = 9; 
+	int64 iTotalVolume   = 10; 
+	int64 iTurnover      = 11;   //单位（百）
+	int64 nPreCloseIndex = 12; 
+	int32 nLocalTime     = 13;
+}
+
+message IndexBlock
+{
+	int32 nItemCount   = 1;
+	repeated Index index        = 2;
+}
+
+message Transaction
+{
+	string szWindCode     = 1; 
+	string szCode         = 2; 
+	int32 nActionDay      = 3;
+	int32 nTime           = 4; 
+	int32 nIndex          = 5;
+	int64 nPrice          = 6;
+	int32 nVolume         = 7;
+	int64 nTurnover       = 8;
+	int32 nBSFlag         = 9;
+	bytes chOrderKind     = 10; 
+	string chFunctionCode = 11;
+	int32 nAskOrder       = 12;
+	int32 nBidOrder       = 13;
+	int32 nLocalTime      = 14;
+}
+
+message TransactionBlock
+{
+	int32 nItemCount         = 1;
+	repeated Transaction transaction  = 2;
+}
+
+//逐笔委托
+message Order 
+{
+	string szWindCode     = 1; 
+	string szCode         = 2; 
+	int32 nActionDay      = 3;
+	int32 nTime           = 4; 
+	int32 nOrder          = 5;
+	int64 nPrice          = 6;
+	int32 nVolume         = 7;
+	bytes chOrderKind     = 8;
+	string chFunctionCode = 9;
+	int32 nBroker         = 10;
+	string chStatus       = 11;	
+	string chFlag         = 12;    
+	int32 nLocalTime      = 13;    
+}
+
+message OrderBlock
+{
+	int32 nItemCount   = 1;
+	repeated Order order        = 2;
+}
+
+//委托队列
+message OrderQueue
+{
+	string szWindCode     = 1; 
+	string szCode         = 2; 
+	int32 nActionDay      = 3;
+	int32 nTime           = 4; 
+	int32 nSide           = 5;
+	int64 nPrice          = 6;
+	int32 nOrders         = 7;
+	int32 nABItems        = 8;
+	repeated int32 nABVolume       = 9;
+	int32 nLocalTime      = 10; 
+}
+
+message OrderQueueBlock
+{
+	int32 nItemCount   = 1;
+	repeated OrderQueue queue   = 2;
+}
+
+
+message MarketData
+{
+	enum Type{
+		UNDEFIND    = 0；
+		STOCK       = 1; 
+		INDEX       = 2;
+		FUTURE      = 3;
+		TRANSACTION = 4;
+		ORDER       = 5;
+		QUEUE       = 6;
+	}
+	
+	Type type = 1;
+	
+	oneof data{
+		StockBlock stockData            = 2;
+		FutureBlock futureData          = 3;
+		IndexBlock indexData            = 4;
+		TransactionBlock transactionData= 5;
+		OrderBlock orderData            = 6;
+		OrderQueueBlock queueData       = 7;
+	}
+}

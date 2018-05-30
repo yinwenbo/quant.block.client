@@ -1,0 +1,5019 @@
+{
+    "Code": "510500", 
+    "MaxCashRatio": 0.5, 
+    "Name": "[ETF]", 
+    "TradingDay": "20180509", 
+    "PreTradingDay": "20180508", 
+    "CashComponent": -51523.28, 
+    "TradeUnit": 400000, 
+    "NAVperCU": 2544886.72, 
+    "Nav": 6.3622, 
+    "Level1Code": "510501", 
+    "EstimateCashComponent": -53277.28, 
+    "RecordNum": 500, 
+    "Level2Code": "510500", 
+    "Items": [
+        {
+            "ReplaceAmount": 4488.0, 
+            "Code": "000006", 
+            "Name": "\u6df1\u632f\u4e1a\uff21", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 8512.0, 
+            "Code": "000009", 
+            "Name": "\u4e2d\u56fd\u5b9d\u5b89", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1400
+        }, 
+        {
+            "ReplaceAmount": 4338.0, 
+            "Code": "000012", 
+            "Name": "\u5357  \u73bb\uff21", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 4495.0, 
+            "Code": "000021", 
+            "Name": "\u6df1\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 3693.0, 
+            "Code": "000025", 
+            "Name": "\u7279\u529bA", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 3976.0, 
+            "Code": "000027", 
+            "Name": "\u6df1\u5733\u80fd\u6e90", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 5475.0, 
+            "Code": "000028", 
+            "Name": "\u56fd\u836f\u4e00\u81f4", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 4942.0, 
+            "Code": "000031", 
+            "Name": "\u4e2d\u7cae\u5730\u4ea7", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 7710.0, 
+            "Code": "000039", 
+            "Name": "\u4e2d\u96c6\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 3299.0, 
+            "Code": "000049", 
+            "Name": "\u5fb7\u8d5b\u7535\u6c60", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 8065.0, 
+            "Code": "000050", 
+            "Name": "\u6df1\u5929\u9a6c\uff21", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 2680.0, 
+            "Code": "000061", 
+            "Name": "\u519c \u4ea7 \u54c1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 2205.0, 
+            "Code": "000062", 
+            "Name": "\u6df1\u5733\u534e\u5f3a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 10054.0, 
+            "Code": "000066", 
+            "Name": "\u4e2d\u56fd\u957f\u57ce", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1100
+        }, 
+        {
+            "ReplaceAmount": 5880.0, 
+            "Code": "000078", 
+            "Name": "\u6d77\u738b\u751f\u7269", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 4716.0, 
+            "Code": "000089", 
+            "Name": "\u6df1\u5733\u673a\u573a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 3540.0, 
+            "Code": "000090", 
+            "Name": "\u5929\u5065\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 2466.0, 
+            "Code": "000099", 
+            "Name": "\u4e2d\u4fe1\u6d77\u76f4", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4560.0, 
+            "Code": "000156", 
+            "Name": "\u534e\u6570\u4f20\u5a92", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 3384.0, 
+            "Code": "000158", 
+            "Name": "\u5e38\u5c71\u5317\u660e", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 3984.0, 
+            "Code": "000400", 
+            "Name": "\u8bb8\u7ee7\u7535\u6c14", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 7182.0, 
+            "Code": "000401", 
+            "Name": "\u5180\u4e1c\u6c34\u6ce5", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 7058.0, 
+            "Code": "000418", 
+            "Name": "\u5c0f\u5929\u9e45\uff21", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 3632.0, 
+            "Code": "000426", 
+            "Name": "\u5174\u4e1a\u77ff\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 9252.0, 
+            "Code": "000488", 
+            "Name": "\u6668\u9e23\u7eb8\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 2998.0, 
+            "Code": "000501", 
+            "Name": "\u9102\u6b66\u5546\uff21", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 7172.0, 
+            "Code": "000513", 
+            "Name": "\u4e3d\u73e0\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 3956.0, 
+            "Code": "000519", 
+            "Name": "\u4e2d\u5175\u7ea2\u7bad", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 5000.0, 
+            "Code": "000528", 
+            "Name": "\u67f3\u5de5", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 1101.0, 
+            "Code": "000536", 
+            "Name": "\u534e\u6620\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3328.0, 
+            "Code": "000541", 
+            "Name": "\u4f5b\u5c71\u7167\u660e", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 3248.0, 
+            "Code": "000543", 
+            "Name": "\u7696\u80fd\u7535\u529b", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 6414.0, 
+            "Code": "000547", 
+            "Name": "\u822a\u5929\u53d1\u5c55", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 2401.0, 
+            "Code": "000552", 
+            "Name": "\u9756\u8fdc\u7164\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 4040.0, 
+            "Code": "000563", 
+            "Name": "\u9655\u56fd\u6295\uff21", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 7734.0, 
+            "Code": "000566", 
+            "Name": "\u6d77\u5357\u6d77\u836f", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 2737.0, 
+            "Code": "000572", 
+            "Name": "\u6d77\u9a6c\u6c7d\u8f66", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 7020.0, 
+            "Code": "000581", 
+            "Name": "\u5a01\u5b5a\u9ad8\u79d1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3485.0, 
+            "Code": "000587", 
+            "Name": "\u91d1\u6d32\u6148\u822a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 4100.0, 
+            "Code": "000592", 
+            "Name": "\u5e73\u6f6d\u53d1\u5c55", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 7170.0, 
+            "Code": "000596", 
+            "Name": "\u53e4\u4e95\u8d21\u9152", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 5346.0, 
+            "Code": "000598", 
+            "Name": "\u5174\u84c9\u73af\u5883", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1100
+        }, 
+        {
+            "ReplaceAmount": 3235.0, 
+            "Code": "000600", 
+            "Name": "\u5efa\u6295\u80fd\u6e90", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 3190.0, 
+            "Code": "000612", 
+            "Name": "\u7126\u4f5c\u4e07\u65b9", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 7625.0, 
+            "Code": "000636", 
+            "Name": "\u98ce\u534e\u9ad8\u79d1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 2919.0, 
+            "Code": "000652", 
+            "Name": "\u6cf0\u8fbe\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 9231.0, 
+            "Code": "000656", 
+            "Name": "\u91d1\u79d1\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1700
+        }, 
+        {
+            "ReplaceAmount": 20660.0, 
+            "Code": "000661", 
+            "Name": "\u957f\u6625\u9ad8\u65b0", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 2400.0, 
+            "Code": "000662", 
+            "Name": "\u5929\u590f\u667a\u6167", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 4288.0, 
+            "Code": "000667", 
+            "Name": "\u7f8e\u597d\u7f6e\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1600
+        }, 
+        {
+            "ReplaceAmount": 2202.0, 
+            "Code": "000669", 
+            "Name": "\u91d1\u9e3f\u63a7\u80a1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 2490.0, 
+            "Code": "000680", 
+            "Name": "\u5c71\u63a8\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 5360.0, 
+            "Code": "000681", 
+            "Name": "\u89c6\u89c9\u4e2d\u56fd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 5580.0, 
+            "Code": "000685", 
+            "Name": "\u4e2d\u5c71\u516c\u7528", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 8063.0, 
+            "Code": "000690", 
+            "Name": "\u5b9d\u65b0\u80fd\u6e90", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1100
+        }, 
+        {
+            "ReplaceAmount": 7116.0, 
+            "Code": "000703", 
+            "Name": "\u6052\u9038\u77f3\u5316", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4287.0, 
+            "Code": "000712", 
+            "Name": "\u9526\u9f99\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4060.0, 
+            "Code": "000718", 
+            "Name": "\u82cf\u5b81\u73af\u7403", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 3876.0, 
+            "Code": "000727", 
+            "Name": "\u534e\u4e1c\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1700
+        }, 
+        {
+            "ReplaceAmount": 7074.0, 
+            "Code": "000729", 
+            "Name": "\u71d5\u4eac\u5564\u9152", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 900
+        }, 
+        {
+            "ReplaceAmount": 8133.0, 
+            "Code": "000732", 
+            "Name": "\u6cf0\u79be\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3864.0, 
+            "Code": "000758", 
+            "Name": "\u4e2d\u8272\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 1248.0, 
+            "Code": "000761", 
+            "Name": "\u672c\u94a2\u677f\u6750", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3840.0, 
+            "Code": "000762", 
+            "Name": "\u897f\u85cf\u77ff\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 2720.0, 
+            "Code": "000766", 
+            "Name": "\u901a\u5316\u91d1\u9a6c", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 2672.0, 
+            "Code": "000777", 
+            "Name": "\u4e2d\u6838\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 6110.0, 
+            "Code": "000778", 
+            "Name": "\u65b0\u5174\u94f8\u7ba1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1300
+        }, 
+        {
+            "ReplaceAmount": 14406.0, 
+            "Code": "000786", 
+            "Name": "\u5317\u65b0\u5efa\u6750", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 2552.0, 
+            "Code": "000806", 
+            "Name": "\u94f6\u6cb3\u751f\u7269", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 5222.0, 
+            "Code": "000807", 
+            "Name": "\u4e91\u94dd\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 1596.0, 
+            "Code": "000816", 
+            "Name": "*ST\u6167\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 8400.0, 
+            "Code": "000825", 
+            "Name": "\u592a\u94a2\u4e0d\u9508", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1400
+        }, 
+        {
+            "ReplaceAmount": 2634.0, 
+            "Code": "000829", 
+            "Name": "\u5929\u97f3\u63a7\u80a1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 11742.0, 
+            "Code": "000830", 
+            "Name": "\u9c81\u897f\u5316\u5de5", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 4040.0, 
+            "Code": "000848", 
+            "Name": "\u627f\u5fb7\u9732\u9732", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 9093.0, 
+            "Code": "000860", 
+            "Name": "\u987a\u946b\u519c\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3652.0, 
+            "Code": "000877", 
+            "Name": "\u5929\u5c71\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 5625.0, 
+            "Code": "000878", 
+            "Name": "\u4e91\u5357\u94dc\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 8480.0, 
+            "Code": "000887", 
+            "Name": "\u4e2d\u9f0e\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 2392.0, 
+            "Code": "000897", 
+            "Name": "\u6d25\u6ee8\u53d1\u5c55", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 4335.0, 
+            "Code": "000926", 
+            "Name": "\u798f\u661f\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 8004.0, 
+            "Code": "000930", 
+            "Name": "\u4e2d\u7cae\u751f\u5316", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 3360.0, 
+            "Code": "000937", 
+            "Name": "\u5180\u4e2d\u80fd\u6e90", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 4990.0, 
+            "Code": "000939", 
+            "Name": "\u51ef\u8fea\u751f\u6001", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 7040.0, 
+            "Code": "000960", 
+            "Name": "\u9521\u4e1a\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 3200.0, 
+            "Code": "000969", 
+            "Name": "\u5b89\u6cf0\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 5650.0, 
+            "Code": "000970", 
+            "Name": "\u4e2d\u79d1\u4e09\u73af", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 6524.0, 
+            "Code": "000975", 
+            "Name": "\u94f6\u6cf0\u8d44\u6e90", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 12645.0, 
+            "Code": "000977", 
+            "Name": "\u6d6a\u6f6e\u4fe1\u606f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 5670.0, 
+            "Code": "000979", 
+            "Name": "\u4e2d\u5f18\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 4200
+        }, 
+        {
+            "ReplaceAmount": 8584.0, 
+            "Code": "000981", 
+            "Name": "\u94f6\u4ebf\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 1906.0, 
+            "Code": "000987", 
+            "Name": "\u8d8a\u79c0\u91d1\u63a7", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 6280.0, 
+            "Code": "000988", 
+            "Name": "\u534e\u5de5\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 2888.0, 
+            "Code": "000990", 
+            "Name": "\u8bda\u5fd7\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 7616.0, 
+            "Code": "000997", 
+            "Name": "\u65b0 \u5927 \u9646", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 11015.0, 
+            "Code": "000998", 
+            "Name": "\u9686\u5e73\u9ad8\u79d1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 5584.0, 
+            "Code": "000999", 
+            "Name": "\u534e\u6da6\u4e09\u4e5d", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 2316.0, 
+            "Code": "001696", 
+            "Name": "\u5b97\u7533\u52a8\u529b", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 11097.0, 
+            "Code": "002001", 
+            "Name": "\u65b0\u548c\u6210", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4438.0, 
+            "Code": "002002", 
+            "Name": "\u9e3f\u8fbe\u5174\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 5508.0, 
+            "Code": "002004", 
+            "Name": "\u534e\u90a6\u5065\u5eb7", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 900
+        }, 
+        {
+            "ReplaceAmount": 3052.0, 
+            "Code": "002005", 
+            "Name": "\u5fb7\u8c6a\u6da6\u8fbe", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 1920.0, 
+            "Code": "002011", 
+            "Name": "\u76fe\u5b89\u73af\u5883", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 7407.0, 
+            "Code": "002013", 
+            "Name": "\u4e2d\u822a\u673a\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 900
+        }, 
+        {
+            "ReplaceAmount": 2022.0, 
+            "Code": "002018", 
+            "Name": "*ST\u534e\u4fe1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 8148.0, 
+            "Code": "002019", 
+            "Name": "\u4ebf\u5e06\u533b\u836f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 4365.0, 
+            "Code": "002022", 
+            "Name": "\u79d1\u534e\u751f\u7269", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 5832.0, 
+            "Code": "002028", 
+            "Name": "\u601d\u6e90\u7535\u6c14", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 5214.0, 
+            "Code": "002030", 
+            "Name": "\u8fbe\u5b89\u57fa\u56e0", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 5105.0, 
+            "Code": "002032", 
+            "Name": "\u82cf\u6cca\u5c14", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 13398.0, 
+            "Code": "002038", 
+            "Name": "\u53cc\u9e6d\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 1994.0, 
+            "Code": "002041", 
+            "Name": "\u767b\u6d77\u79cd\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 2800.0, 
+            "Code": "002048", 
+            "Name": "\u5b81\u6ce2\u534e\u7fd4", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 10986.0, 
+            "Code": "002049", 
+            "Name": "\u7d2b\u5149\u56fd\u5fae", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 8965.0, 
+            "Code": "002050", 
+            "Name": "\u4e09\u82b1\u667a\u63a7", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 6248.0, 
+            "Code": "002051", 
+            "Name": "\u4e2d\u5de5\u56fd\u9645", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 4435.0, 
+            "Code": "002056", 
+            "Name": "\u6a2a\u5e97\u4e1c\u78c1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 3426.0, 
+            "Code": "002063", 
+            "Name": "\u8fdc\u5149\u8f6f\u4ef6", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3360.0, 
+            "Code": "002064", 
+            "Name": "\u534e\u5cf0\u6c28\u7eb6", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 2996.0, 
+            "Code": "002073", 
+            "Name": "\u8f6f\u63a7\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 11650.0, 
+            "Code": "002078", 
+            "Name": "\u592a\u9633\u7eb8\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 8784.0, 
+            "Code": "002092", 
+            "Name": "\u4e2d\u6cf0\u5316\u5b66", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 2961.0, 
+            "Code": "002093", 
+            "Name": "\u56fd\u8109\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3152.0, 
+            "Code": "002106", 
+            "Name": "\u83b1\u5b9d\u9ad8\u79d1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 2823.0, 
+            "Code": "002118", 
+            "Name": "\u7d2b\u946b\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4245.0, 
+            "Code": "002122", 
+            "Name": "*ST\u5929\u9a6c", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 3093.0, 
+            "Code": "002123", 
+            "Name": "\u68a6\u7f51\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 7780.0, 
+            "Code": "002127", 
+            "Name": "\u5357\u6781\u7535\u5546", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 3756.0, 
+            "Code": "002128", 
+            "Name": "\u9732\u5929\u7164\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 5418.0, 
+            "Code": "002131", 
+            "Name": "\u5229\u6b27\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 2100
+        }, 
+        {
+            "ReplaceAmount": 4428.0, 
+            "Code": "002147", 
+            "Name": "\u65b0\u5149\u5706\u6210", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 5992.0, 
+            "Code": "002152", 
+            "Name": "\u5e7f\u7535\u8fd0\u901a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 4430.0, 
+            "Code": "002155", 
+            "Name": "\u6e56\u5357\u9ec4\u91d1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 8106.0, 
+            "Code": "002176", 
+            "Name": "\u6c5f\u7279\u7535\u673a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 7964.0, 
+            "Code": "002179", 
+            "Name": "\u4e2d\u822a\u5149\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 6453.0, 
+            "Code": "002183", 
+            "Name": "\u6021\u4e9a\u901a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 900
+        }, 
+        {
+            "ReplaceAmount": 2211.0, 
+            "Code": "002190", 
+            "Name": "\u6210\u98de\u96c6\u6210", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 5082.0, 
+            "Code": "002191", 
+            "Name": "\u52b2\u5609\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 8280.0, 
+            "Code": "002195", 
+            "Name": "\u4e8c\u4e09\u56db\u4e94", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1200
+        }, 
+        {
+            "ReplaceAmount": 5755.0, 
+            "Code": "002221", 
+            "Name": "\u4e1c\u534e\u80fd\u6e90", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 8368.0, 
+            "Code": "002223", 
+            "Name": "\u9c7c\u8dc3\u533b\u7597", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 3606.0, 
+            "Code": "002233", 
+            "Name": "\u5854\u724c\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3510.0, 
+            "Code": "002242", 
+            "Name": "\u4e5d\u9633\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 6030.0, 
+            "Code": "002244", 
+            "Name": "\u6ee8\u6c5f\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 4193.0, 
+            "Code": "002249", 
+            "Name": "\u5927\u6d0b\u7535\u673a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 3252.0, 
+            "Code": "002250", 
+            "Name": "\u8054\u5316\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 2998.0, 
+            "Code": "002251", 
+            "Name": "\u6b65\u6b65\u9ad8", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 3669.0, 
+            "Code": "002254", 
+            "Name": "\u6cf0\u548c\u65b0\u6750", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 2620.0, 
+            "Code": "002261", 
+            "Name": "\u62d3\u7ef4\u4fe1\u606f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 4020.0, 
+            "Code": "002266", 
+            "Name": "\u6d59\u5bcc\u63a7\u80a1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 9807.0, 
+            "Code": "002268", 
+            "Name": "\u536b\u58eb\u901a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 2488.0, 
+            "Code": "002269", 
+            "Name": "\u7f8e\u90a6\u670d\u9970", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 11619.0, 
+            "Code": "002271", 
+            "Name": "\u4e1c\u65b9\u96e8\u8679", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 6009.0, 
+            "Code": "002273", 
+            "Name": "\u6c34\u6676\u5149\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 2952.0, 
+            "Code": "002276", 
+            "Name": "\u4e07\u9a6c\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 2904.0, 
+            "Code": "002277", 
+            "Name": "\u53cb\u963f\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 4921.0, 
+            "Code": "002280", 
+            "Name": "\u8054\u7edc\u4e92\u52a8", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 5052.0, 
+            "Code": "002281", 
+            "Name": "\u5149\u8fc5\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 5034.0, 
+            "Code": "002285", 
+            "Name": "\u4e16\u8054\u884c", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 4791.0, 
+            "Code": "002299", 
+            "Name": "\u5723\u519c\u53d1\u5c55", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 2790.0, 
+            "Code": "002308", 
+            "Name": "\u5a01\u521b\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 9896.0, 
+            "Code": "002311", 
+            "Name": "\u6d77\u5927\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 3723.0, 
+            "Code": "002317", 
+            "Name": "\u4f17\u751f\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 2230.0, 
+            "Code": "002325", 
+            "Name": "\u6d2a\u6d9b\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 3968.0, 
+            "Code": "002332", 
+            "Name": "\u4ed9\u741a\u5236\u836f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 11594.0, 
+            "Code": "002340", 
+            "Name": "\u683c\u6797\u7f8e", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1700
+        }, 
+        {
+            "ReplaceAmount": 2076.0, 
+            "Code": "002342", 
+            "Name": "\u5de8\u529b\u7d22\u5177", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 1803.0, 
+            "Code": "002344", 
+            "Name": "\u6d77\u5b81\u76ae\u57ce", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 2985.0, 
+            "Code": "002345", 
+            "Name": "\u6f6e\u5b8f\u57fa", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 6836.0, 
+            "Code": "002353", 
+            "Name": "\u6770\u745e\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 4077.0, 
+            "Code": "002354", 
+            "Name": "\u5929\u795e\u5a31\u4e50", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 5580.0, 
+            "Code": "002358", 
+            "Name": "\u68ee\u6e90\u7535\u6c14", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 7995.0, 
+            "Code": "002359", 
+            "Name": "\u5317\u8baf\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 7791.0, 
+            "Code": "002366", 
+            "Name": "\u53f0\u6d77\u6838\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 6480.0, 
+            "Code": "002368", 
+            "Name": "\u592a\u6781\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 5104.0, 
+            "Code": "002371", 
+            "Name": "\u5317\u65b9\u534e\u521b", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 7525.0, 
+            "Code": "002373", 
+            "Name": "\u5343\u65b9\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 3290.0, 
+            "Code": "002375", 
+            "Name": "\u4e9a\u53a6\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 7797.0, 
+            "Code": "002384", 
+            "Name": "\u4e1c\u5c71\u7cbe\u5bc6", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4985.0, 
+            "Code": "002390", 
+            "Name": "\u4fe1\u90a6\u5236\u836f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 2110.0, 
+            "Code": "002392", 
+            "Name": "\u5317\u4eac\u5229\u5c14", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 4477.0, 
+            "Code": "002400", 
+            "Name": "\u7701\u5e7f\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1100
+        }, 
+        {
+            "ReplaceAmount": 15984.0, 
+            "Code": "002405", 
+            "Name": "\u56db\u7ef4\u56fe\u65b0", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 6824.0, 
+            "Code": "002407", 
+            "Name": "\u591a\u6c1f\u591a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 8334.0, 
+            "Code": "002408", 
+            "Name": "\u9f50\u7fd4\u817e\u8fbe", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 13625.0, 
+            "Code": "002410", 
+            "Name": "\u5e7f\u8054\u8fbe", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 1686.0, 
+            "Code": "002414", 
+            "Name": "\u9ad8\u5fb7\u7ea2\u5916", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 1644.0, 
+            "Code": "002416", 
+            "Name": "\u7231\u65bd\u5fb7", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 17250.0, 
+            "Code": "002422", 
+            "Name": "\u79d1\u4f26\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 3381.0, 
+            "Code": "002428", 
+            "Name": "\u4e91\u5357\u9517\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 5166.0, 
+            "Code": "002431", 
+            "Name": "\u68d5\u6988\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 2415.0, 
+            "Code": "002434", 
+            "Name": "\u4e07\u91cc\u626c", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3414.0, 
+            "Code": "002437", 
+            "Name": "\u8a89\u8861\u836f\u4e1a", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 7467.0, 
+            "Code": "002439", 
+            "Name": "\u542f\u660e\u661f\u8fb0", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 6393.0, 
+            "Code": "002440", 
+            "Name": "\u95f0\u571f\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3405.0, 
+            "Code": "002444", 
+            "Name": "\u5de8\u661f\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3185.0, 
+            "Code": "002463", 
+            "Name": "\u6caa\u7535\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 4320.0, 
+            "Code": "002477", 
+            "Name": "\u96cf\u9e70\u519c\u7267", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1200
+        }, 
+        {
+            "ReplaceAmount": 2250.0, 
+            "Code": "002479", 
+            "Name": "\u5bcc\u6625\u73af\u4fdd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3040.0, 
+            "Code": "002482", 
+            "Name": "\u5e7f\u7530\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 2954.0, 
+            "Code": "002489", 
+            "Name": "\u6d59\u6c5f\u6c38\u5f3a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 6955.0, 
+            "Code": "002491", 
+            "Name": "\u901a\u9f0e\u4e92\u8054", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 2670.0, 
+            "Code": "002503", 
+            "Name": "\u641c\u4e8e\u7279", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 4182.0, 
+            "Code": "002505", 
+            "Name": "\u5927\u5eb7\u519c\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1700
+        }, 
+        {
+            "ReplaceAmount": 5928.0, 
+            "Code": "002506", 
+            "Name": "\u534f\u946b\u96c6\u6210", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1300
+        }, 
+        {
+            "ReplaceAmount": 4288.0, 
+            "Code": "002512", 
+            "Name": "\u8fbe\u534e\u667a\u80fd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 5824.0, 
+            "Code": "002517", 
+            "Name": "\u607a\u82f1\u7f51\u7edc", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 3446.0, 
+            "Code": "002544", 
+            "Name": "\u6770\u8d5b\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 1604.0, 
+            "Code": "002551", 
+            "Name": "\u5c1a\u8363\u533b\u7597", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 6028.0, 
+            "Code": "002573", 
+            "Name": "\u6e05\u65b0\u73af\u5883", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 6654.0, 
+            "Code": "002583", 
+            "Name": "\u6d77\u80fd\u8fbe", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 2672.0, 
+            "Code": "002588", 
+            "Name": "\u53f2\u4e39\u5229", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 7540.0, 
+            "Code": "002589", 
+            "Name": "\u745e\u5eb7\u533b\u836f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 4974.0, 
+            "Code": "002603", 
+            "Name": "\u4ee5\u5cad\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3796.0, 
+            "Code": "002635", 
+            "Name": "\u5b89\u6d01\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 8100.0, 
+            "Code": "002640", 
+            "Name": "\u8de8\u5883\u901a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 2326.0, 
+            "Code": "002642", 
+            "Name": "\u8363\u4e4b\u8054", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 2098.0, 
+            "Code": "002657", 
+            "Name": "\u4e2d\u79d1\u91d1\u8d22", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 2919.0, 
+            "Code": "002663", 
+            "Name": "\u666e\u90a6\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 5360.0, 
+            "Code": "002665", 
+            "Name": "\u9996\u822a\u8282\u80fd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 6600.0, 
+            "Code": "002670", 
+            "Name": "\u56fd\u76db\u91d1\u63a7", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 4638.0, 
+            "Code": "002672", 
+            "Name": "\u4e1c\u6c5f\u73af\u4fdd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3009.0, 
+            "Code": "002681", 
+            "Name": "\u594b\u8fbe\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4240.0, 
+            "Code": "002690", 
+            "Name": "\u7f8e\u4e9a\u5149\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 3752.0, 
+            "Code": "002699", 
+            "Name": "\u7f8e\u76db\u6587\u5316", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 4123.0, 
+            "Code": "002701", 
+            "Name": "\u5965\u745e\u91d1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 3384.0, 
+            "Code": "002707", 
+            "Name": "\u4f17\u4fe1\u65c5\u6e38", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4260.0, 
+            "Code": "002709", 
+            "Name": "\u5929\u8d50\u6750\u6599", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 5700.0, 
+            "Code": "002745", 
+            "Name": "\u6728\u6797\u68ee", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4080.0, 
+            "Code": "002807", 
+            "Name": "\u6c5f\u9634\u94f6\u884c", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 1841.0, 
+            "Code": "002815", 
+            "Name": "\u5d07\u8fbe\u6280\u672f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 2778.0, 
+            "Code": "002818", 
+            "Name": "\u5bcc\u68ee\u7f8e", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 3807.0, 
+            "Code": "300001", 
+            "Name": "\u7279\u9510\u5fb7", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 6012.0, 
+            "Code": "300002", 
+            "Name": "\u795e\u5dde\u6cf0\u5cb3", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 900
+        }, 
+        {
+            "ReplaceAmount": 5940.0, 
+            "Code": "300010", 
+            "Name": "\u7acb\u601d\u8fb0", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 4719.0, 
+            "Code": "300026", 
+            "Name": "\u7ea2\u65e5\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1100
+        }, 
+        {
+            "ReplaceAmount": 4167.0, 
+            "Code": "300032", 
+            "Name": "\u91d1\u9f99\u673a\u7535", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3445.0, 
+            "Code": "300039", 
+            "Name": "\u4e0a\u6d77\u51ef\u5b9d", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 2104.0, 
+            "Code": "300043", 
+            "Name": "\u661f\u8f89\u5a31\u4e50", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 6416.0, 
+            "Code": "300055", 
+            "Name": "\u4e07\u90a6\u8fbe", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 7140.0, 
+            "Code": "300058", 
+            "Name": "\u84dd\u8272\u5149\u6807", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 8124.0, 
+            "Code": "300088", 
+            "Name": "\u957f\u4fe1\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 1200
+        }, 
+        {
+            "ReplaceAmount": 6384.0, 
+            "Code": "300113", 
+            "Name": "\u987a\u7f51\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4851.0, 
+            "Code": "300115", 
+            "Name": "\u957f\u76c8\u7cbe\u5bc6", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 2280.0, 
+            "Code": "300116", 
+            "Name": "\u575a\u745e\u6c83\u80fd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 4492.0, 
+            "Code": "300133", 
+            "Name": "\u534e\u7b56\u5f71\u89c6", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 2716.0, 
+            "Code": "300134", 
+            "Name": "\u5927\u5bcc\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 8300.0, 
+            "Code": "300146", 
+            "Name": "\u6c64\u81e3\u500d\u5065", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 2736.0, 
+            "Code": "300147", 
+            "Name": "\u9999\u96ea\u5236\u836f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 5862.0, 
+            "Code": "300159", 
+            "Name": "\u65b0\u7814\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 8010.0, 
+            "Code": "300166", 
+            "Name": "\u4e1c\u65b9\u56fd\u4fe1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 7808.0, 
+            "Code": "300182", 
+            "Name": "\u6377\u6210\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 6024.0, 
+            "Code": "300197", 
+            "Name": "\u94c1\u6c49\u751f\u6001", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 5013.0, 
+            "Code": "300199", 
+            "Name": "\u7ff0\u5b87\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4236.0, 
+            "Code": "300202", 
+            "Name": "\u805a\u9f99\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 4792.0, 
+            "Code": "300244", 
+            "Name": "\u8fea\u5b89\u8bca\u65ad", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 9086.0, 
+            "Code": "300253", 
+            "Name": "\u536b\u5b81\u5065\u5eb7", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 3600.0, 
+            "Code": "300257", 
+            "Name": "\u5f00\u5c71\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 7996.0, 
+            "Code": "300266", 
+            "Name": "\u5174\u6e90\u73af\u5883", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "4", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 3012.0, 
+            "Code": "300273", 
+            "Name": "\u548c\u4f73\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 11370.0, 
+            "Code": "300274", 
+            "Name": "\u9633\u5149\u7535\u6e90", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 5946.0, 
+            "Code": "300287", 
+            "Name": "\u98de\u5229\u4fe1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 3111.0, 
+            "Code": "300291", 
+            "Name": "\u534e\u5f55\u767e\u7eb3", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 3944.0, 
+            "Code": "300297", 
+            "Name": "\u84dd\u76fe\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 6428.0, 
+            "Code": "300324", 
+            "Name": "\u65cb\u6781\u4fe1\u606f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 4206.0, 
+            "Code": "300376", 
+            "Name": "\u6613\u4e8b\u7279", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 9804.0, 
+            "Code": "300383", 
+            "Name": "\u5149\u73af\u65b0\u7f51", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "3", 
+            "Market": "0", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600004", 
+            "Name": "\u767d\u4e91\u673a\u573a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600006", 
+            "Name": "\u4e1c\u98ce\u6c7d\u8f66", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600017", 
+            "Name": "\u65e5\u7167\u6e2f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1200
+        }, 
+        {
+            "ReplaceAmount": 8282.0, 
+            "Code": "600022", 
+            "Name": "\u5c71\u4e1c\u94a2\u94c1", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "2", 
+            "Market": "1", 
+            "Quantity": 4100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600026", 
+            "Name": "\u4e2d\u8fdc\u6d77\u80fd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 900
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600037", 
+            "Name": "\u6b4c\u534e\u6709\u7ebf", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600039", 
+            "Name": "\u56db\u5ddd\u8def\u6865", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600053", 
+            "Name": "\u4e5d\u9f0e\u6295\u8d44", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600056", 
+            "Name": "\u4e2d\u56fd\u533b\u836f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600058", 
+            "Name": "\u4e94\u77ff\u53d1\u5c55", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600059", 
+            "Name": "\u53e4\u8d8a\u9f99\u5c71", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600060", 
+            "Name": "\u6d77\u4fe1\u7535\u5668", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600062", 
+            "Name": "\u534e\u6da6\u53cc\u9e64", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600064", 
+            "Name": "\u5357\u4eac\u9ad8\u79d1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600073", 
+            "Name": "\u4e0a\u6d77\u6885\u6797", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600079", 
+            "Name": "\u4eba\u798f\u533b\u836f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 4016.0, 
+            "Code": "600086", 
+            "Name": "\u4e1c\u65b9\u91d1\u94b0", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "2", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600094", 
+            "Name": "\u5927\u540d\u57ce", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600098", 
+            "Name": "\u5e7f\u5dde\u53d1\u5c55", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600108", 
+            "Name": "\u4e9a\u76db\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600120", 
+            "Name": "\u6d59\u6c5f\u4e1c\u65b9", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600122", 
+            "Name": "\u5b8f\u56fe\u9ad8\u79d1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600125", 
+            "Name": "\u94c1\u9f99\u7269\u6d41", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600126", 
+            "Name": "\u676d\u94a2\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600138", 
+            "Name": "\u4e2d\u9752\u65c5", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600141", 
+            "Name": "\u5174\u53d1\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600143", 
+            "Name": "\u91d1\u53d1\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600151", 
+            "Name": "\u822a\u5929\u673a\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600155", 
+            "Name": "\u5b9d\u7855\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 4656.0, 
+            "Code": "600158", 
+            "Name": "\u4e2d\u4f53\u4ea7\u4e1a", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "2", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600160", 
+            "Name": "\u5de8\u5316\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600161", 
+            "Name": "\u5929\u575b\u751f\u7269", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600166", 
+            "Name": "\u798f\u7530\u6c7d\u8f66", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 2900
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600169", 
+            "Name": "\u592a\u539f\u91cd\u5de5", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600171", 
+            "Name": "\u4e0a\u6d77\u8d1d\u5cad", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600176", 
+            "Name": "\u4e2d\u56fd\u5de8\u77f3", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600179", 
+            "Name": "\u5b89\u901a\u63a7\u80a1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600183", 
+            "Name": "\u751f\u76ca\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600184", 
+            "Name": "\u5149\u7535\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600187", 
+            "Name": "\u56fd\u4e2d\u6c34\u52a1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600195", 
+            "Name": "\u4e2d\u7267\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600201", 
+            "Name": "\u751f\u7269\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600216", 
+            "Name": "\u6d59\u6c5f\u533b\u836f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600240", 
+            "Name": "\u534e\u4e1a\u8d44\u672c", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600256", 
+            "Name": "\u5e7f\u6c47\u80fd\u6e90", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 2600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600259", 
+            "Name": "\u5e7f\u665f\u6709\u8272", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600260", 
+            "Name": "\u51ef\u4e50\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600266", 
+            "Name": "\u5317\u4eac\u57ce\u5efa", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600267", 
+            "Name": "\u6d77\u6b63\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600270", 
+            "Name": "\u5916\u8fd0\u53d1\u5c55", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600277", 
+            "Name": "\u4ebf\u5229\u6d01\u80fd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600280", 
+            "Name": "\u4e2d\u592e\u5546\u573a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600282", 
+            "Name": "\u5357\u94a2\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600284", 
+            "Name": "\u6d66\u4e1c\u5efa\u8bbe", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600289", 
+            "Name": "*ST\u4fe1\u901a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600291", 
+            "Name": "\u897f\u6c34\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600292", 
+            "Name": "\u8fdc\u8fbe\u73af\u4fdd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600298", 
+            "Name": "\u5b89\u742a\u9175\u6bcd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600300", 
+            "Name": "\u7ef4\u7ef4\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600307", 
+            "Name": "\u9152\u94a2\u5b8f\u5174", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 2000
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600312", 
+            "Name": "\u5e73\u9ad8\u7535\u6c14", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600315", 
+            "Name": "\u4e0a\u6d77\u5bb6\u5316", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600316", 
+            "Name": "\u6d2a\u90fd\u822a\u7a7a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600317", 
+            "Name": "\u8425\u53e3\u6e2f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600325", 
+            "Name": "\u534e\u53d1\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600329", 
+            "Name": "\u4e2d\u65b0\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600335", 
+            "Name": "\u56fd\u673a\u6c7d\u8f66", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600338", 
+            "Name": "\u897f\u85cf\u73e0\u5cf0", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600346", 
+            "Name": "\u6052\u529b\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600348", 
+            "Name": "\u9633\u6cc9\u7164\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600366", 
+            "Name": "\u5b81\u6ce2\u97f5\u5347", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600380", 
+            "Name": "\u5065\u5eb7\u5143", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600388", 
+            "Name": "\u9f99\u51c0\u73af\u4fdd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600392", 
+            "Name": "\u76db\u548c\u8d44\u6e90", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 3678.0, 
+            "Code": "600393", 
+            "Name": "\u7ca4\u6cf0\u80a1\u4efd", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "2", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600395", 
+            "Name": "\u76d8\u6c5f\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600409", 
+            "Name": "\u4e09\u53cb\u5316\u5de5", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600410", 
+            "Name": "\u534e\u80dc\u5929\u6210", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600416", 
+            "Name": "\u6e58\u7535\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600418", 
+            "Name": "\u6c5f\u6dee\u6c7d\u8f66", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600422", 
+            "Name": "\u6606\u836f\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600426", 
+            "Name": "\u534e\u9c81\u6052\u5347", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600428", 
+            "Name": "\u4e2d\u8fdc\u6d77\u7279", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600435", 
+            "Name": "\u5317\u65b9\u5bfc\u822a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600438", 
+            "Name": "\u901a\u5a01\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600458", 
+            "Name": "\u65f6\u4ee3\u65b0\u6750", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600460", 
+            "Name": "\u58eb\u5170\u5fae", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600466", 
+            "Name": "\u84dd\u5149\u53d1\u5c55", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600478", 
+            "Name": "\u79d1\u529b\u8fdc", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600481", 
+            "Name": "\u53cc\u826f\u8282\u80fd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600499", 
+            "Name": "\u79d1\u8fbe\u6d01\u80fd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600500", 
+            "Name": "\u4e2d\u5316\u56fd\u9645", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600503", 
+            "Name": "\u534e\u4e3d\u5bb6\u65cf", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600511", 
+            "Name": "\u56fd\u836f\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600516", 
+            "Name": "\u65b9\u5927\u70ad\u7d20", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600517", 
+            "Name": "\u7f6e\u4fe1\u7535\u6c14", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600521", 
+            "Name": "\u534e\u6d77\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600525", 
+            "Name": "\u957f\u56ed\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600536", 
+            "Name": "\u4e2d\u56fd\u8f6f\u4ef6", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600545", 
+            "Name": "\u5353\u90ce\u667a\u80fd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600557", 
+            "Name": "\u5eb7\u7f18\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600563", 
+            "Name": "\u6cd5\u62c9\u7535\u5b50", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600565", 
+            "Name": "\u8fea\u9a6c\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 900
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600566", 
+            "Name": "\u6d4e\u5ddd\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600572", 
+            "Name": "\u5eb7\u6069\u8d1d", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600575", 
+            "Name": "\u7696\u6c5f\u7269\u6d41", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600578", 
+            "Name": "\u4eac\u80fd\u7535\u529b", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 900
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600580", 
+            "Name": "\u5367\u9f99\u7535\u6c14", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600582", 
+            "Name": "\u5929\u5730\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600584", 
+            "Name": "\u957f\u7535\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600587", 
+            "Name": "\u65b0\u534e\u533b\u7597", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600594", 
+            "Name": "\u76ca\u4f70\u5236\u836f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600597", 
+            "Name": "\u5149\u660e\u4e73\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600598", 
+            "Name": "\u5317\u5927\u8352", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600600", 
+            "Name": "\u9752\u5c9b\u5564\u9152", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600611", 
+            "Name": "\u5927\u4f17\u4ea4\u901a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600614", 
+            "Name": "\u9e4f\u8d77\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600618", 
+            "Name": "\u6c2f\u78b1\u5316\u5de5", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600623", 
+            "Name": "\u534e\u8c0a\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600628", 
+            "Name": "\u65b0\u4e16\u754c", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600633", 
+            "Name": "\u6d59\u6570\u6587\u5316", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600635", 
+            "Name": "\u5927\u4f17\u516c\u7528", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600639", 
+            "Name": "\u6d66\u4e1c\u91d1\u6865", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600640", 
+            "Name": "\u53f7\u767e\u63a7\u80a1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600642", 
+            "Name": "\u7533\u80fd\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600643", 
+            "Name": "\u7231\u5efa\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600645", 
+            "Name": "\u4e2d\u6e90\u534f\u548c", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600648", 
+            "Name": "\u5916\u9ad8\u6865", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600651", 
+            "Name": "\u98de\u4e50\u97f3\u54cd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600655", 
+            "Name": "\u8c6b\u56ed\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600657", 
+            "Name": "\u4fe1\u8fbe\u5730\u4ea7", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600664", 
+            "Name": "\u54c8\u836f\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600673", 
+            "Name": "\u4e1c\u9633\u5149\u79d1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600687", 
+            "Name": "\u521a\u6cf0\u63a7\u80a1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600694", 
+            "Name": "\u5927\u5546\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600717", 
+            "Name": "\u5929\u6d25\u6e2f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600718", 
+            "Name": "\u4e1c\u8f6f\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600729", 
+            "Name": "\u91cd\u5e86\u767e\u8d27", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600737", 
+            "Name": "\u4e2d\u7cae\u7cd6\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600743", 
+            "Name": "\u534e\u8fdc\u5730\u4ea7", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600748", 
+            "Name": "\u4e0a\u5b9e\u53d1\u5c55", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600750", 
+            "Name": "\u6c5f\u4e2d\u836f\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 5192.0, 
+            "Code": "600751", 
+            "Name": "\u6d77\u822a\u79d1\u6280", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "2", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600754", 
+            "Name": "\u9526\u6c5f\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600755", 
+            "Name": "\u53a6\u95e8\u56fd\u8d38", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600757", 
+            "Name": "\u957f\u6c5f\u4f20\u5a92", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 2758.0, 
+            "Code": "600759", 
+            "Name": "\u6d32\u9645\u6cb9\u6c14", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "2", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600765", 
+            "Name": "\u4e2d\u822a\u91cd\u673a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600770", 
+            "Name": "\u7efc\u827a\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600773", 
+            "Name": "\u897f\u85cf\u57ce\u6295", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600776", 
+            "Name": "\u4e1c\u65b9\u901a\u4fe1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600787", 
+            "Name": "\u4e2d\u50a8\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600801", 
+            "Name": "\u534e\u65b0\u6c34\u6ce5", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600808", 
+            "Name": "\u9a6c\u94a2\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1900
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600811", 
+            "Name": "\u4e1c\u65b9\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1900
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600823", 
+            "Name": "\u4e16\u8302\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 900
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600826", 
+            "Name": "\u5170\u751f\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600835", 
+            "Name": "\u4e0a\u6d77\u673a\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600839", 
+            "Name": "\u56db\u5ddd\u957f\u8679", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 2300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600848", 
+            "Name": "\u4e0a\u6d77\u4e34\u6e2f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600859", 
+            "Name": "\u738b\u5e9c\u4e95", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600862", 
+            "Name": "\u4e2d\u822a\u9ad8\u79d1", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600863", 
+            "Name": "\u5185\u8499\u534e\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600869", 
+            "Name": "\u667a\u6167\u80fd\u6e90", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600872", 
+            "Name": "\u4e2d\u70ac\u9ad8\u65b0", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600874", 
+            "Name": "\u521b\u4e1a\u73af\u4fdd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600875", 
+            "Name": "\u4e1c\u65b9\u7535\u6c14", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600879", 
+            "Name": "\u822a\u5929\u7535\u5b50", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1200
+        }, 
+        {
+            "ReplaceAmount": 2365.0, 
+            "Code": "600880", 
+            "Name": "\u535a\u745e\u4f20\u64ad", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "2", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600881", 
+            "Name": "\u4e9a\u6cf0\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600884", 
+            "Name": "\u6749\u6749\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600885", 
+            "Name": "\u5b8f\u53d1\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600894", 
+            "Name": "\u5e7f\u65e5\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600908", 
+            "Name": "\u65e0\u9521\u94f6\u884c", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600917", 
+            "Name": "\u91cd\u5e86\u71c3\u6c14", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600936", 
+            "Name": "\u5e7f\u897f\u5e7f\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600939", 
+            "Name": "\u91cd\u5e86\u5efa\u5de5", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600967", 
+            "Name": "\u5185\u8499\u4e00\u673a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600970", 
+            "Name": "\u4e2d\u6750\u56fd\u9645", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600971", 
+            "Name": "\u6052\u6e90\u7164\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600978", 
+            "Name": "\u5b9c\u534e\u751f\u6d3b", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600993", 
+            "Name": "\u9a6c\u5e94\u9f99", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "600996", 
+            "Name": "\u8d35\u5e7f\u7f51\u7edc", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601000", 
+            "Name": "\u5510\u5c71\u6e2f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601001", 
+            "Name": "\u5927\u540c\u7164\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601002", 
+            "Name": "\u664b\u4ebf\u5b9e\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601016", 
+            "Name": "\u8282\u80fd\u98ce\u7535", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1000
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601020", 
+            "Name": "\u534e\u94b0\u77ff\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601127", 
+            "Name": "\u5c0f\u5eb7\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601128", 
+            "Name": "\u5e38\u719f\u94f6\u884c", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601168", 
+            "Name": "\u897f\u90e8\u77ff\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 1200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601200", 
+            "Name": "\u4e0a\u6d77\u73af\u5883", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601231", 
+            "Name": "\u73af\u65ed\u7535\u5b50", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601233", 
+            "Name": "\u6850\u6606\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601311", 
+            "Name": "\u9a86\u9a7c\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601678", 
+            "Name": "\u6ee8\u5316\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601689", 
+            "Name": "\u62d3\u666e\u96c6\u56e2", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601699", 
+            "Name": "\u6f5e\u5b89\u73af\u80fd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 800
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601717", 
+            "Name": "\u90d1\u7164\u673a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 600
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601777", 
+            "Name": "\u529b\u5e06\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 400
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601811", 
+            "Name": "\u65b0\u534e\u6587\u8f69", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601880", 
+            "Name": "\u5927\u8fde\u6e2f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 2000
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601928", 
+            "Name": "\u51e4\u51f0\u4f20\u5a92", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 500
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "601969", 
+            "Name": "\u6d77\u5357\u77ff\u4e1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603000", 
+            "Name": "\u4eba\u6c11\u7f51", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603001", 
+            "Name": "\u5965\u5eb7\u56fd\u9645", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603019", 
+            "Name": "\u4e2d\u79d1\u66d9\u5149", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603025", 
+            "Name": "\u5927\u8c6a\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603077", 
+            "Name": "\u548c\u90a6\u751f\u7269", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 2200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603169", 
+            "Name": "\u5170\u77f3\u91cd\u88c5", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603188", 
+            "Name": "\u4e9a\u90a6\u80a1\u4efd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603198", 
+            "Name": "\u8fce\u9a7e\u8d21\u9152", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603225", 
+            "Name": "\u65b0\u51e4\u9e23", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603228", 
+            "Name": "\u666f\u65fa\u7535\u5b50", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603328", 
+            "Name": "\u4f9d\u987f\u7535\u5b50", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603355", 
+            "Name": "\u83b1\u514b\u7535\u6c14", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603369", 
+            "Name": "\u4eca\u4e16\u7f18", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 300
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603377", 
+            "Name": "\u4e1c\u65b9\u65f6\u5c1a", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 15741.0, 
+            "Code": "603444", 
+            "Name": "\u5409\u6bd4\u7279", 
+            "OverPriceRate": 0.0, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "2", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603515", 
+            "Name": "\u6b27\u666e\u7167\u660e", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603528", 
+            "Name": "\u591a\u4f26\u79d1\u6280", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603556", 
+            "Name": "\u6d77\u5174\u7535\u529b", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603568", 
+            "Name": "\u4f1f\u660e\u73af\u4fdd", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603569", 
+            "Name": "\u957f\u4e45\u7269\u6d41", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603589", 
+            "Name": "\u53e3\u5b50\u7a96", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 200
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603658", 
+            "Name": "\u5b89\u56fe\u751f\u7269", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603766", 
+            "Name": "\u9686\u946b\u901a\u7528", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 700
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603806", 
+            "Name": "\u798f\u65af\u7279", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603816", 
+            "Name": "\u987e\u5bb6\u5bb6\u5c45", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603868", 
+            "Name": "\u98de\u79d1\u7535\u5668", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603877", 
+            "Name": "\u592a\u5e73\u9e1f", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603883", 
+            "Name": "\u8001\u767e\u59d3", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }, 
+        {
+            "ReplaceAmount": 0.0, 
+            "Code": "603888", 
+            "Name": "\u65b0\u534e\u7f51", 
+            "OverPriceRate": 0.1, 
+            "TradingDay": "20180509", 
+            "ReplaceFlag": "1", 
+            "Market": "1", 
+            "Quantity": 100
+        }
+    ], 
+    "PublishFlag": "1", 
+    "Market": "1"
+}
