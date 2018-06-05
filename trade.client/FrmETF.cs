@@ -112,12 +112,13 @@ namespace trade.client
             etf.Items.ForEach((item) => {
                 Stock stock = StockFaced.GetStock(item.Code);
                 StockQuote quote = StockFaced.GetQuote(item.Code);
-                if (stock == null) return;
+                if (stock == null|| quote == null) return;
+                if (!string.Equals(item.ReplaceFlag, "1")) return;
                 orders.Add(
                     Trader.NewBatchOrderItem(
                         stock.SecurityId.Exchange == Exchange.Sh ? Dwjk.Dtp.Exchange.ShA : Dwjk.Dtp.Exchange.SzA,
                         item.Code,
-                        quote == null? "0": quote.HighLimited.ToString(),
+                        quote.HighLimited.ToString(),
                         (uint)item.Quantity,
                         Dwjk.Dtp.OrderSide.Buy
                     ));
@@ -177,7 +178,7 @@ namespace trade.client
                     etf.Level1Code,
                     Price.Value.ToString(),
                     (uint)etf.TradeUnit,
-                    Dwjk.Dtp.OrderSide.Creation
+                    Dwjk.Dtp.OrderSide.Redempton
                 );
             if (FrmOrderConfirm.Show(order))
             {

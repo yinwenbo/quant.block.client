@@ -15,28 +15,22 @@ namespace trade.client
 {
     public partial class FrmLogin : Form
     {
-        public delegate void LoginSuccess(TradeClient adapter);
+        private const int ConfigWidth = 638;
+        private const int LoginWidth = 256;
 
-        public LoginSuccess OnLoginSuccess { set; get; }
-        private Configration configration;
-
+        private ConfigLoader ConfigLoader = ConfigLoader.Load();
         public FrmLogin()
         {
             InitializeComponent();
-            Init();
+            InitialView();
         }
-        private void Init()
+        private void InitialView()
         {
-            configration = Configration.Load();
+            Bind(ConfigList, ConfigLoader.Configs);
+            ConfigList.DisplayMember = "Name";
+            Bind(AccountList, ConfigLoader.Accounts);
 
-            TradeServerList.DataSource = configration.TradeServers;
-            Level2ServerList.DataSource = configration.Level2Servers;
-            TradeConfigList.DataSource = configration.TradeServers;
-            Level2ConfigList.DataSource = configration.Level2Servers;
-            AccountList.DataSource = configration.Accounts;
-
-            if (configration.Level2Servers.Count == 0
-                || configration.TradeServers.Count == 0)
+            if (ConfigLoader.Configs.Count == 0)
             {
                 ConfigView();
             } else
@@ -44,13 +38,25 @@ namespace trade.client
                 LoginView();
             }
         }
+        private void Bind(ComboBox combo, object list)
+        {
+            combo.DataSource = new BindingSource
+            {
+                DataSource = list
+            };
+        }
+        private void RefreshData(ComboBox combo)
+        {
+            ((BindingSource)combo.DataSource).ResetBindings(false);
+            UpdateConfigView();
+        }
         private void ConfigView()
         {
-            this.Width = 538;
+            this.Width = ConfigWidth;
         }
         private void LoginView()
         {
-            this.Width = 256;
+            this.Width = LoginWidth;
         }
         
         private void ShowConfig_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -58,93 +64,12 @@ namespace trade.client
             ConfigView();
         }
 
-        private void Upsert(Level2Server server)
-        {
-            var existsed = configration.Level2Servers.Find((item) => { return item.Equals(server); });
-            if (existsed != null)
-            {
-                configration.Level2Servers.Remove(existsed);
-            }
-            configration.Level2Servers.Insert(0, server);
-            Configration.Save(configration);
-            TradeServerList.DataSource = configration.TradeServers;
-            TradeConfigList.DataSource = configration.TradeServers;
-        }
-        private void Upsert(TradeServer server)
-        {
-            var existsed = configration.TradeServers.Find((item) => { return item.Equals(server); });
-            if (existsed != null)
-            {
-                configration.TradeServers.Remove(existsed);
-            }
-            configration.TradeServers.Insert(0, server);
-            Configration.Save(configration);
-            Level2ServerList.DataSource = configration.Level2Servers;
-            Level2ConfigList.DataSource = configration.Level2Servers;
-
-        }
-        private void TradeItemSave_Click(object sender, EventArgs e)
-        {
-            TradeServer tradeServer =
-                new TradeServer()
-                {
-                    Name = TradeConfigList.Text,
-                    Host = TradeHost.Text,
-                    OrderPort = int.Parse(TradeOrderPort.Text),
-                    ReportPort = int.Parse(TradeReportPort.Text),
-                    QueryPort = int.Parse(TradeQueryPort.Text)
-                };
-            Upsert(tradeServer);
-        }
-
-        private void Level2ItemSave_Click(object sender, EventArgs e)
-        {
-            Level2Server server =
-                new Level2Server()
-                {
-                    Name = Level2ConfigList.Text,
-                    Address = Level2Address.Text
-                };
-            Upsert(server);
-        }
-
-        private void TradeConfigList_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            TradeServer server = configration.TradeServers[TradeConfigList.SelectedIndex];
-            TradeHost.Text = server.Host;
-            TradeOrderPort.Text = server.OrderPort.ToString();
-            TradeReportPort.Text = server.ReportPort.ToString();
-            TradeQueryPort.Text = server.QueryPort.ToString();
-        }
-
-        private void TradeItemDelete_Click(object sender, EventArgs e)
-        {
-            var existsed = configration.TradeServers.Find((item) => { return string.Equals(item.Name, TradeConfigList.Text); });
-            if (existsed != null)
-            {
-                configration.TradeServers.Remove(existsed);
-            }
-            TradeServerList.DataSource = configration.TradeServers;
-            TradeConfigList.DataSource = configration.TradeServers;
-        }
-
-        private void Level2ItemDelete_Click(object sender, EventArgs e)
-        {
-            var existsed = configration.Level2Servers.Find((item) => { return string.Equals(item.Name, Level2ConfigList.Text); });
-            if (existsed != null)
-            {
-                configration.Level2Servers.Remove(existsed);
-            }
-            Level2ServerList.DataSource = configration.Level2Servers;
-            Level2ConfigList.DataSource = configration.Level2Servers;
-        }
-
         private void FrmLogin_Shown(object sender, EventArgs e)
         {
             txtPassword.Focus();
         }
 
-        private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
+        private void TxtPassword_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((int)e.KeyChar == (int)Keys.Enter)
             {
@@ -154,35 +79,102 @@ namespace trade.client
 
         private void Login_Click(object sender, EventArgs e)
         {
-            if (TradeServerList.SelectedIndex <0)  MessageBox.Show("请选择交易服务器");
-            if (Level2ServerList.SelectedIndex < 0) MessageBox.Show("请选择行情服务器");
+            DoLogin();
+        }
 
+        private void ConfigList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            UpdateConfigView();
+        }
+        private void UpdateConfigView()
+        {
+            ConfigGrid.SelectedObject = CurrentConfig();
+        }
+        private Config CurrentConfig()
+        {
+            return (Config)ConfigList.SelectedItem;
+        }
+        private string CurrentAccount()
+        {
+            return AccountList.Text.Trim();
+        }
+        private void DoLogin()
+        {
+            Config config = CurrentConfig();
+            string account = CurrentAccount();
+
+            if (config == null)
+            {
+                MessageBox.Show("请选择服务配置");
+                return;
+            }
+            if (String.IsNullOrEmpty(account))
+            {
+                MessageBox.Show("请输入账号");
+                return;
+            }
             try
             {
-                TradeServer tradeServer = configration.TradeServers[TradeServerList.SelectedIndex];
-                string account = AccountList.Text;
+                SaveConfig();
                 TradeClient adapter = TradeClient.Create(
                     account,
                     txtPassword.Text,
-                    tradeServer.QueryAddress(),
-                    tradeServer.OrderAddress(),
-                    tradeServer.ReportAddress()
+                    config.TradeHost,
+                    config.TradeQueryPort,
+                    config.TradeOrderPort,
+                    config.TradeReportPort
                     );
-                Level2Server level2Server = configration.Level2Servers[Level2ServerList.SelectedIndex];
-                StockFaced.ConnectL1("http://192.168.211.251:8600");
-                StockFaced.ConnectL2(level2Server.Address);
-                Thread thread = new Thread(new ThreadStart(StockFaced.UpdateStock));
-                thread.Start();
-                OnLoginSuccess?.Invoke(adapter);
-                if (!configration.Accounts.Exists((a) => { return string.Equals(a, account); }))
-                {
-                    configration.Accounts.Insert(0, account);
-                    Configration.Save(configration);
-                }
+                StockFaced.ConnectL1(config.ReferenceAddress);
+                StockFaced.ConnectL2(config.Level2Address);
+                StockFaced.UpdateStockAsync();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        private void SaveConfig()
+        {
+            string account = CurrentAccount();
+            if (ConfigLoader.Accounts.Exists(account.Equals))
+                ConfigLoader.Accounts.Remove(account);
+            ConfigLoader.Accounts.Insert(0, account);
+
+            Config config = CurrentConfig();
+            if (ConfigLoader.Configs.Exists(config.Equals))
+                ConfigLoader.Configs.Remove(config);
+            ConfigLoader.Configs.Insert(0, config);
+
+            ConfigLoader.Save();
+        }
+
+        private void ConfigAdd_Click(object sender, EventArgs e)
+        {
+            Config config = new Config
+            {
+                Name = "config"
+            };
+            ConfigLoader.Configs.Insert(0, config);
+            RefreshData(ConfigList);
+        }
+
+        private void ConfigDel_Click(object sender, EventArgs e)
+        {
+            Config config = CurrentConfig();
+            string msg = string.Format("删除配置 {0} ?", config.Name);
+            if(MessageBox.Show(msg, "删除确认", MessageBoxButtons.OKCancel).Equals(DialogResult.OK))
+            {
+                ConfigLoader.Configs.Remove(config);
+                ConfigLoader.Save();
+                RefreshData(ConfigList);
+            }
+        }
+
+        private void ConfigGrid_PropertyValueChanged(object s, PropertyValueChangedEventArgs e)
+        {
+            if (String.Equals(e.ChangedItem.Label, "Name"))
+            {
+                RefreshData(ConfigList);
             }
         }
     }

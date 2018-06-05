@@ -1,6 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -8,95 +10,54 @@ using System.Threading.Tasks;
 
 namespace trade.client
 {
-    public class Configration
+
+    public class ConfigLoader
     {
-        private static string FileName = "config.json";
+        private const string FileName = "config.json";
 
-        public static Configration Load()
+        public static ConfigLoader Load(string filename = FileName)
         {
-            if (!File.Exists(FileName)) return new Configration();
+            if (!File.Exists(filename)) return new ConfigLoader();
 
-            string json = File.ReadAllText("config.json");
-            return JsonConvert.DeserializeObject<Configration>(json);
+            string json = File.ReadAllText(filename);
+            return JsonConvert.DeserializeObject<ConfigLoader>(json);
         }
-        public static void Save(Configration configration)
+        public static void Save(ConfigLoader configs, string filename = FileName)
         {
-            string json = JsonConvert.SerializeObject(configration, Formatting.Indented);
-            File.WriteAllText(FileName, json);
+            string json = JsonConvert.SerializeObject(configs, Formatting.Indented);
+            File.WriteAllText(filename, json);
         }
-        public Configration()
-        {
-            Accounts = new List<string>();
-            TradeServers = new List<TradeServer>();
-            Level2Servers = new List<Level2Server>();
-        }
+
+        public List<Config> Configs { set; get; }
         public List<string> Accounts { set; get; }
-        public List<TradeServer> TradeServers { set; get; }
-        public List<Level2Server> Level2Servers { set; get; }
+
+        public ConfigLoader()
+        {
+            Configs = new List<Config>();
+            Accounts = new List<string>();
+        }
+
+        public void Save(string filename = FileName)
+        {
+            Save(this, filename);
+        }
     }
 
-    public class TradeServer
+    public class Config
     {
         public string Name { set; get; }
-        public string Host { set; get; }
-        public int OrderPort { set; get; }
-        public int ReportPort { set; get; }
-        public int QueryPort { set; get; }
 
-        public string OrderAddress()
-        {
-            return BuildAddress(Host, OrderPort);
-        }
-        public string ReportAddress()
-        {
-            return BuildAddress(Host, ReportPort);
-        }
+        public string TradeHost { set; get; }
+        public int TradeOrderPort { set; get; }
+        public int TradeReportPort { set; get; }
+        public int TradeQueryPort { set; get; }
 
-        public string QueryAddress()
-        {
-            return BuildAddress(Host, QueryPort);
-        }
+        public string ReferenceAddress { set; get; }
+        public string Level2Address { set; get; }
 
-        private string BuildAddress(string host, int port)
-        {
-            return string.Format("{0}:{1}", host.TrimEnd(':'), port);
-        }
+        public string ComplianceHost { set; get; }
+        public int ComplianceReportPort { set; get; }
 
-        public override string ToString()
-        {
-            return Name;
-        }
-
-        public override bool Equals(object obj)
-        {
-            if (obj == null) return false;
-            if (!(obj is TradeServer)) return false;
-            return string.Equals(Name, ((TradeServer)obj).Name);
-        }
-        public override int GetHashCode()
-        {
-            return Name.GetHashCode();
-        }
     }
 
-    public class Level2Server
-    {
-        public string Name { set; get; }
-        public string Address { set; get; }
-        public override string ToString()
-        {
-            return Name;
-        }
-
-        public override bool Equals(object obj)
-        {
-            if (obj == null) return false;
-            if (!(obj is Level2Server)) return false;
-            return string.Equals(Name, ((Level2Server)obj).Name);
-        }
-        public override int GetHashCode()
-        {
-            return Name.GetHashCode();
-        }
-    }
 }

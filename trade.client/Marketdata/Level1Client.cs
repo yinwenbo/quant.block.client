@@ -35,7 +35,7 @@ namespace trade.client.Marketdata
         public List<Stock> GetStocks()
         {
             string json = GetSecurities();
-            List<L1Security> list = JsonConvert.DeserializeObject<List<L1Security>>(json);
+            List<SecurityDto> list = JsonConvert.DeserializeObject<List<SecurityDto>>(json);
             List<Stock> result = new List<Stock>();
             list.ForEach((stock) =>
             {
@@ -45,7 +45,7 @@ namespace trade.client.Marketdata
             return result;
         }
 
-        private Stock Transfer(L1Security s)
+        private Stock Transfer(SecurityDto s)
         {
             Stock result = new Stock()
             {
@@ -67,7 +67,7 @@ namespace trade.client.Marketdata
     }
 
 
-    class L1Security
+    class SecurityDto
     {
         public string Symbol { set; get; }
         public string Exchange { set; get; }

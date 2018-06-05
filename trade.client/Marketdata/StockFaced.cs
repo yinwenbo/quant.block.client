@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace trade.client.Marketdata
@@ -37,6 +38,12 @@ namespace trade.client.Marketdata
             if (Level1 == null) return;
             var stocks = Level1.GetStocks();
             StockCache.Update(stocks);
+        }
+
+        public static void UpdateStockAsync()
+        {
+            Thread thread = new Thread(new ThreadStart(UpdateStock));
+            thread.Start();
         }
 
         public static Stock GetStock(string code)

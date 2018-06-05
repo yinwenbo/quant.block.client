@@ -1,0 +1,41 @@
+{
+  "Accounts": [
+    "011000147697",
+    "080000011845"
+  ],
+  "Configs": [
+    {
+      "Name": "localhost",
+      "ComplianceHost": "",
+      "ComplianceReportPort": 0,
+      "TradeHost": "tcp://127.0.0.1",
+      "TradeOrderPort": 9001,
+      "TradeReportPort": 9002,
+      "TradeQueryPort": 9003,
+      "ReferenceAddress": "http://192.168.211.251:8600",
+      "Level2Address": "tcp://192.168.211.194:6666"
+    },
+    {
+      "Name": "221.21:9001",
+      "ComplianceHost": "tcp://192.168.221.21",
+      "ComplianceReportPort": 9102,
+      "TradeHost": "tcp://192.168.221.21",
+      "TradeOrderPort": 9001,
+      "TradeReportPort": 9002,
+      "TradeQueryPort": 9003,
+      "ReferenceAddress": "http://192.168.211.251:8600",
+      "Level2Address": "tcp://192.168.211.194:6666"
+    },
+    {
+      "Name": "221.52:8001",
+      "ComplianceHost": "",
+      "ComplianceReportPort": 0,
+      "TradeHost": "tcp://192.168.221.21",
+      "TradeOrderPort": 8001,
+      "TradeReportPort": 8002,
+      "TradeQueryPort": 8003,
+      "ReferenceAddress": "http://192.168.211.251:8600",
+      "Level2Address": "tcp://192.168.211.194:6666"
+    }
+  ]
+}

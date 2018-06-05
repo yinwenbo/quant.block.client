@@ -16,7 +16,7 @@ namespace trade.client
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmNavBar());
+            Application.Run(new FrmLogin());
         }
 
     }

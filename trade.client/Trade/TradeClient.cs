@@ -110,9 +110,17 @@ namespace trade.client.Trade
         {
             return clients.Values.ToList();
         }
-        public static TradeClient Create(string accountNo, string password, string requestAddress, string dealreAddress, string subscribeAddress)
+        public static TradeClient Create(string accountNo, string password, string host, int requestPort, int dealerPort, int subscribePort)
         {
-            TradeClient client = new TradeClient(requestAddress, dealreAddress, subscribeAddress);
+            const string template = "{0}:{1}";
+            string request = string.Format(template, host, requestPort);
+            string dealer = string.Format(template, host, dealerPort);
+            string subscribe = string.Format(template, host, subscribePort);
+            return Create(accountNo, password, request, dealer, subscribe);
+        }
+        public static TradeClient Create(string accountNo, string password, string requestAddress, string dealerAddress, string subscribeAddress)
+        {
+            TradeClient client = new TradeClient(requestAddress, dealerAddress, subscribeAddress);
             client.Login(accountNo, password);
             clients[accountNo] = client;
             return client;

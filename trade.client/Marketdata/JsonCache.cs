@@ -31,14 +31,13 @@ namespace trade.client.Marketdata
         }
         public T Get(string key)
         {
-            T result = default(T);
-            Caches.TryGetValue(key, out result);
+            Caches.TryGetValue(key, out T result);
             return result;
         }
 
         public void SaveToFile()
         {
-            string json = JsonConvert.SerializeObject(Caches);
+            string json = JsonConvert.SerializeObject(Caches, Formatting.Indented);
             File.WriteAllText(FileName, json);
         }
         public void LoadFromFile()
