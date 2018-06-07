@@ -160,7 +160,7 @@
       <DependentUpon>HandicapL2.cs</DependentUpon>
     </Compile>
     <Compile Include="Marketdata\Level2Client.cs" />
-    <Compile Include="Marketdata\StockFaced.cs" />
+    <Compile Include="Marketdata\StockFacade.cs" />
     <Compile Include="Quotation\Quotation.cs" />
     <Compile Include="Trade\TradeChannels.cs" />
     <Compile Include="Trade\TradeDict.cs" />
@@ -181,6 +181,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trade\TradeClient.cs" />
+    <Compile Include="Trade\TradeFacade.cs" />
+    <Compile Include="UIUtils\DefaultGridView.cs" />
     <EmbeddedResource Include="Controls\AccountBar.resx">
       <DependentUpon>AccountBar.cs</DependentUpon>
     </EmbeddedResource>

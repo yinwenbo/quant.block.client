@@ -10,54 +10,80 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using trade.client.Trade;
+using trade.client.UIUtils;
+using static Dwjk.Dtp.QueryPositionResponse.Types;
 
 namespace trade.client
 {
     public partial class FrmQueryPositions : Form
     {
+        private DefaultGridView<PositionDetail> _Grid;
+        private QueryPagination _NextPage;
+
         public string Code { set; get; }
         public Exchange Exchange { set; get; }
-        public QueryPositionResponse Positions { set; get; }
-
+        
         public FrmQueryPositions()
         {
             InitializeComponent();
+            _Grid = new DefaultGridView<PositionDetail>(Grid);
+            _NextPage = new QueryPagination
+            {
+                Size = (uint)PageSize.Value,
+                Offset = 0,
+            };
         }
-
         private void BtnQuery_Click(object sender, EventArgs e)
         {
-            DoQuery();
+            RefreshQuery();
         }
-        private void DoQuery()
+        private void RefreshQuery()
         {
-            SetParams();
+            InitQueryParams();
+            QueryAsync();
+        }
+        private void InitQueryParams()
+        {
+            _NextPage.Size = (uint)PageSize.Value;
+            _NextPage.Offset = 0;
+            Exchange = TradeDict.Exchange[cboExchange.Text];
+            Code = txtCode.Text;
+            _Grid.Clear();
+        }
+        private void QueryAsync()
+        {
             Thread thread = new Thread(new ThreadStart(Query));
             thread.Start();
         }
-        private void SetParams()
-        {
-            Exchange = TradeDict.Exchange[cboExchange.Text];
-            Code = txtCode.Text;
-        }
-
-        private void ShowData()
-        {
-            if (Positions == null) return;
-            this.grid.DataSource = Positions.PositionList;
-        }
         private void Query()
         {
-            Positions = accountToolbar.Current?.QueryPositions(
+            var positions = accountToolbar.Current?.QueryPositions(
                 exchange: Exchange,
-                code: Code
+                code: Code,
+                pagination: _NextPage
                 );
-            BeginInvoke(new MethodInvoker(ShowData));
-
+            if (positions == null || positions.PositionList.Count() == 0)
+            {
+                MessageBox.Show("没有了!");
+                return;
+            };
+            if (positions.Pagination.Offset <= _NextPage.Offset) return;
+            _NextPage.Offset = positions.Pagination.Offset;
+            Invoke(
+                new MethodInvoker(() =>
+                {
+                    _Grid.Add(positions.PositionList.ToList());
+                }));
         }
 
         private void FrmQueryPositions_Shown(object sender, EventArgs e)
         {
-            DoQuery();
+            RefreshQuery();
+        }
+
+        private void NextPage_Click(object sender, EventArgs e)
+        {
+            QueryAsync();
         }
     }
 }

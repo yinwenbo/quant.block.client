@@ -34,103 +34,105 @@ namespace Dwjk.Dtp {
             "KAkiOwoTTG9naW5BY2NvdW50UmVxdWVzdBISCgphY2NvdW50X25vGAEgASgJ",
             "EhAKCHBhc3N3b3JkGAIgASgJIiUKFExvZ2luQWNjb3VudFJlc3BvbnNlEg0K",
             "BXRva2VuGAEgASgJIioKFExvZ291dEFjY291bnRSZXF1ZXN0EhIKCmFjY291",
-            "bnRfbm8YASABKAkiFwoVTG9nb3V0QWNjb3VudFJlc3BvbnNlIs4CCg9QbGFj",
-            "ZUJhdGNoT3JkZXISEgoKYWNjb3VudF9ubxgBIAEoCRIUCgxvcmRlcl9jb3Vu",
-            "dGUYAiABKA0SPAoKb3JkZXJfbGlzdBgDIAMoCzIoLmR3amsuZHRwLlBsYWNl",
-            "QmF0Y2hPcmRlci5CYXRjaE9yZGVySXRlbRrSAQoOQmF0Y2hPcmRlckl0ZW0S",
-            "JAoIZXhjaGFuZ2UYASABKA4yEi5kd2prLmR0cC5FeGNoYW5nZRIMCgRjb2Rl",
-            "GAIgASgJEicKCm9yZGVyX3NpZGUYAyABKA4yEy5kd2prLmR0cC5PcmRlclNp",
-            "ZGUSDQoFcHJpY2UYBCABKAkSEAoIcXVhbnRpdHkYBSABKA0SJwoKb3JkZXJf",
-            "dHlwZRgGIAEoDjITLmR3amsuZHRwLk9yZGVyVHlwZRIZChFvcmRlcl9vcmln",
-            "aW5hbF9pZBgHIAEoCSLiAQoKUGxhY2VPcmRlchISCgphY2NvdW50X25vGAEg",
-            "ASgJEhkKEW9yZGVyX29yaWdpbmFsX2lkGAIgASgJEiQKCGV4Y2hhbmdlGAMg",
-            "ASgOMhIuZHdqay5kdHAuRXhjaGFuZ2USDAoEY29kZRgEIAEoCRINCgVwcmlj",
-            "ZRgFIAEoCRIQCghxdWFudGl0eRgGIAEoDRInCgpvcmRlcl9zaWRlGAcgASgO",
-            "MhMuZHdqay5kdHAuT3JkZXJTaWRlEicKCm9yZGVyX3R5cGUYCCABKA4yEy5k",
-            "d2prLmR0cC5PcmRlclR5cGUiYgoLQ2FuY2VsT3JkZXISEgoKYWNjb3VudF9u",
-            "bxgBIAEoCRIkCghleGNoYW5nZRgCIAEoDjISLmR3amsuZHRwLkV4Y2hhbmdl",
-            "EhkKEW9yZGVyX2V4Y2hhbmdlX2lkGAMgASgJIqkCCgxQbGFjZWRSZXBvcnQS",
-            "GQoRb3JkZXJfZXhjaGFuZ2VfaWQYASABKAkSEwoLcGxhY2VkX3RpbWUYAiAB",
-            "KAkSFQoNZnJlZXplX2Ftb3VudBgDIAEoCRIlCgZzdGF0dXMYBCABKA4yFS5k",
-            "d2prLmR0cC5PcmRlclN0YXR1cxIZChFvcmRlcl9vcmlnaW5hbF9pZBgFIAEo",
-            "CRISCgphY2NvdW50X25vGAYgASgJEiQKCGV4Y2hhbmdlGAcgASgOMhIuZHdq",
-            "ay5kdHAuRXhjaGFuZ2USDAoEY29kZRgIIAEoCRIQCghxdWFudGl0eRgJIAEo",
-            "DRInCgpvcmRlcl9zaWRlGAogASgOMhMuZHdqay5kdHAuT3JkZXJTaWRlEg0K",
-            "BXByaWNlGAsgASgJItwDCgpGaWxsUmVwb3J0EhgKEGZpbGxfZXhjaGFuZ2Vf",
-            "aWQYASABKAkSEQoJZmlsbF90aW1lGAIgASgJEikKC2ZpbGxfc3RhdHVzGAMg",
-            "ASgOMhQuZHdqay5kdHAuRmlsbFN0YXR1cxISCgpmaWxsX3ByaWNlGAQgASgJ",
-            "EhUKDWZpbGxfcXVhbnRpdHkYBSABKA0SEwoLZmlsbF9hbW91bnQYBiABKAkS",
-            "FAoMY2xlYXJfYW1vdW50GAcgASgJEhsKE3RvdGFsX2ZpbGxfcXVhbnRpdHkY",
-            "CCABKA0SGQoRdG90YWxfZmlsbF9hbW91bnQYCSABKAkSIAoYdG90YWxfY2Fu",
-            "Y2VsbGVkX3F1YW50aXR5GAogASgNEhkKEW9yZGVyX2V4Y2hhbmdlX2lkGAsg",
-            "ASgJEhkKEW9yZGVyX29yaWdpbmFsX2lkGAwgASgJEhIKCmFjY291bnRfbm8Y",
-            "DSABKAkSJAoIZXhjaGFuZ2UYDiABKA4yEi5kd2prLmR0cC5FeGNoYW5nZRIM",
-            "CgRjb2RlGA8gASgJEg0KBXByaWNlGBAgASgJEhAKCHF1YW50aXR5GBEgASgN",
-            "EicKCm9yZGVyX3NpZGUYEiABKA4yEy5kd2prLmR0cC5PcmRlclNpZGUixAIK",
-            "EkNhbmNlbGxhdGlvblJlcG9ydBIZChFvcmRlcl9leGNoYW5nZV9pZBgBIAEo",
-            "CRIZChFvcmRlcl9vcmlnaW5hbF9pZBgCIAEoCRISCgphY2NvdW50X25vGAMg",
-            "ASgJEiQKCGV4Y2hhbmdlGAQgASgOMhIuZHdqay5kdHAuRXhjaGFuZ2USDAoE",
-            "Y29kZRgFIAEoCRIQCghxdWFudGl0eRgGIAEoDRInCgpvcmRlcl9zaWRlGAcg",
-            "ASgOMhMuZHdqay5kdHAuT3JkZXJTaWRlEiUKBnN0YXR1cxgIIAEoDjIVLmR3",
-            "amsuZHRwLk9yZGVyU3RhdHVzEhsKE3RvdGFsX2ZpbGxfcXVhbnRpdHkYCSAB",
-            "KA0SGgoSY2FuY2VsbGVkX3F1YW50aXR5GAogASgNEhUKDWZyZWV6ZV9hbW91",
-            "bnQYCyABKAkioAIKElF1ZXJ5T3JkZXJzUmVxdWVzdBISCgphY2NvdW50X25v",
-            "GAEgASgJEhkKEW9yZGVyX2V4Y2hhbmdlX2lkGAIgASgJEjQKDnF1ZXJ5X2Ny",
-            "aXRlcmlhGAMgASgOMhwuZHdqay5kdHAuUXVlcnlPcmRlckNyaXRlcmlhEi0K",
-            "CnBhZ2luYXRpb24YBCABKAsyGS5kd2prLmR0cC5RdWVyeVBhZ2luYXRpb24S",
-            "JAoIZXhjaGFuZ2UYBSABKA4yEi5kd2prLmR0cC5FeGNoYW5nZRIMCgRjb2Rl",
-            "GAYgASgJEhkKEW9yZGVyX29yaWdpbmFsX2lkGAcgASgJEicKCm9yZGVyX3Np",
-            "ZGUYCCABKA4yEy5kd2prLmR0cC5PcmRlclNpZGUizQQKE1F1ZXJ5T3JkZXJz",
-            "UmVzcG9uc2USNwoKb3JkZXJfbGlzdBgBIAMoCzIjLmR3amsuZHRwLlF1ZXJ5",
-            "T3JkZXJzUmVzcG9uc2UuT3JkZXIa/AMKBU9yZGVyEhkKEW9yZGVyX2V4Y2hh",
-            "bmdlX2lkGAEgASgJEhkKEW9yZGVyX29yaWdpbmFsX2lkGAIgASgJEiQKCGV4",
-            "Y2hhbmdlGAMgASgOMhIuZHdqay5kdHAuRXhjaGFuZ2USDAoEY29kZRgEIAEo",
-            "CRIMCgRuYW1lGAUgASgJEg0KBXByaWNlGAYgASgJEhAKCHF1YW50aXR5GAcg",
-            "ASgNEicKCm9yZGVyX3NpZGUYCCABKA4yEy5kd2prLmR0cC5PcmRlclNpZGUS",
-            "JwoKb3JkZXJfdHlwZRgJIAEoDjITLmR3amsuZHRwLk9yZGVyVHlwZRIlCgZz",
-            "dGF0dXMYCiABKA4yFS5kd2prLmR0cC5PcmRlclN0YXR1cxISCgpvcmRlcl90",
-            "aW1lGAsgASgJEhIKCmFjY291bnRfbm8YDCABKAkSGgoSYXZlcmFnZV9maWxs",
-            "X3ByaWNlGA0gASgJEhsKE3RvdGFsX2ZpbGxfcXVhbnRpdHkYDiABKA0SGQoR",
-            "dG90YWxfZmlsbF9hbW91bnQYDyABKAkSFQoNZnJlZXplX2Ftb3VudBgQIAEo",
-            "CRIUCgxjbGVhcl9hbW91bnQYESABKAkSIAoYdG90YWxfY2FuY2VsbGVkX3F1",
-            "YW50aXR5GBIgASgNEhYKDnN0YXR1c19tZXNzYWdlGBMgASgJIoYCChFRdWVy",
-            "eUZpbGxzUmVxdWVzdBISCgphY2NvdW50X25vGAEgASgJEhkKEW9yZGVyX2V4",
-            "Y2hhbmdlX2lkGAIgASgJEi0KCnBhZ2luYXRpb24YAyABKAsyGS5kd2prLmR0",
-            "cC5RdWVyeVBhZ2luYXRpb24SJAoIZXhjaGFuZ2UYBCABKA4yEi5kd2prLmR0",
-            "cC5FeGNoYW5nZRIMCgRjb2RlGAUgASgJEhkKEW9yZGVyX29yaWdpbmFsX2lk",
-            "GAYgASgJEicKCm9yZGVyX3NpZGUYByABKA4yEy5kd2prLmR0cC5PcmRlclNp",
-            "ZGUSGwoTaW5jbHVkZV9jYW5jZWxfZmlsbBgIIAEoCCKiAwoSUXVlcnlGaWxs",
-            "c1Jlc3BvbnNlEjQKCWZpbGxfbGlzdBgBIAMoCzIhLmR3amsuZHRwLlF1ZXJ5",
-            "RmlsbHNSZXNwb25zZS5GaWxsGtUCCgRGaWxsEhgKEGZpbGxfZXhjaGFuZ2Vf",
-            "aWQYASABKAkSEQoJZmlsbF90aW1lGAIgASgJEikKC2ZpbGxfc3RhdHVzGAMg",
-            "ASgOMhQuZHdqay5kdHAuRmlsbFN0YXR1cxISCgpmaWxsX3ByaWNlGAQgASgJ",
-            "EhUKDWZpbGxfcXVhbnRpdHkYBSABKA0SEwoLZmlsbF9hbW91bnQYBiABKAkS",
-            "FAoMY2xlYXJfYW1vdW50GAcgASgJEhkKEW9yZGVyX2V4Y2hhbmdlX2lkGAgg",
-            "ASgJEhkKEW9yZGVyX29yaWdpbmFsX2lkGAkgASgJEiQKCGV4Y2hhbmdlGAog",
-            "ASgOMhIuZHdqay5kdHAuRXhjaGFuZ2USDAoEY29kZRgLIAEoCRIMCgRuYW1l",
-            "GAwgASgJEicKCm9yZGVyX3NpZGUYDSABKA4yEy5kd2prLmR0cC5PcmRlclNp",
-            "ZGUiKQoTUXVlcnlDYXBpdGFsUmVxdWVzdBISCgphY2NvdW50X25vGAEgASgJ",
-            "IoEBChRRdWVyeUNhcGl0YWxSZXNwb25zZRISCgphY2NvdW50X25vGAEgASgJ",
-            "Eg8KB2JhbGFuY2UYAiABKAkSEQoJYXZhaWxhYmxlGAMgASgJEg4KBmZyZWV6",
-            "ZRgEIAEoCRISCgpzZWN1cml0aWVzGAUgASgJEg0KBXRvdGFsGAYgASgJIo0B",
-            "ChRRdWVyeVBvc2l0aW9uUmVxdWVzdBISCgphY2NvdW50X25vGAEgASgJEiQK",
-            "CGV4Y2hhbmdlGAIgASgOMhIuZHdqay5kdHAuRXhjaGFuZ2USDAoEY29kZRgD",
-            "IAEoCRItCgpwYWdpbmF0aW9uGAQgASgLMhkuZHdqay5kdHAuUXVlcnlQYWdp",
-            "bmF0aW9uIvkCChVRdWVyeVBvc2l0aW9uUmVzcG9uc2USRQoNcG9zaXRpb25f",
-            "bGlzdBgBIAMoCzIuLmR3amsuZHRwLlF1ZXJ5UG9zaXRpb25SZXNwb25zZS5Q",
-            "b3NpdGlvbkRldGFpbBItCgpwYWdpbmF0aW9uGAIgASgLMhkuZHdqay5kdHAu",
-            "UXVlcnlQYWdpbmF0aW9uGukBCg5Qb3NpdGlvbkRldGFpbBIkCghleGNoYW5n",
-            "ZRgBIAEoDjISLmR3amsuZHRwLkV4Y2hhbmdlEgwKBGNvZGUYAiABKAkSDAoE",
-            "bmFtZRgDIAEoCRIPCgdiYWxhbmNlGAQgASgDEhoKEmF2YWlsYWJsZV9xdWFu",
-            "dGl0eRgFIAEoAxIXCg9mcmVlemVfcXVhbnRpdHkYBiABKAUSFAoMYnV5X3F1",
-            "YW50aXR5GAcgASgDEhUKDXNlbGxfcXVhbnRpdHkYCCABKAMSFAoMbWFya2V0",
-            "X3ZhbHVlGAkgASgJEgwKBGNvc3QYCiABKAkiKAoSUXVlcnlSYXRpb25SZXF1",
-            "ZXN0EhIKCmFjY291bnRfbm8YASABKAkipgEKE1F1ZXJ5UmF0aW9uUmVzcG9u",
-            "c2USOQoLcmF0aW9uX2xpc3QYASADKAsyJC5kd2prLmR0cC5RdWVyeVJhdGlv",
-            "blJlc3BvbnNlLlJhdGlvbhpUCgZSYXRpb24SEgoKYWNjb3VudF9ubxgBIAEo",
-            "CRIkCghleGNoYW5nZRgCIAEoDjISLmR3amsuZHRwLkV4Y2hhbmdlEhAKCHF1",
-            "YW50aXR5GAMgASgNIi8KD1F1ZXJ5UGFnaW5hdGlvbhIOCgZvZmZzZXQYASAB",
-            "KA0SDAoEc2l6ZRgCIAEoDWIGcHJvdG8z"));
+            "bnRfbm8YASABKAkiFwoVTG9nb3V0QWNjb3VudFJlc3BvbnNlIuIBCgpQbGFj",
+            "ZU9yZGVyEhIKCmFjY291bnRfbm8YASABKAkSGQoRb3JkZXJfb3JpZ2luYWxf",
+            "aWQYAiABKAkSJAoIZXhjaGFuZ2UYAyABKA4yEi5kd2prLmR0cC5FeGNoYW5n",
+            "ZRIMCgRjb2RlGAQgASgJEg0KBXByaWNlGAUgASgJEhAKCHF1YW50aXR5GAYg",
+            "ASgNEicKCm9yZGVyX3NpZGUYByABKA4yEy5kd2prLmR0cC5PcmRlclNpZGUS",
+            "JwoKb3JkZXJfdHlwZRgIIAEoDjITLmR3amsuZHRwLk9yZGVyVHlwZSJiCgtD",
+            "YW5jZWxPcmRlchISCgphY2NvdW50X25vGAEgASgJEiQKCGV4Y2hhbmdlGAIg",
+            "ASgOMhIuZHdqay5kdHAuRXhjaGFuZ2USGQoRb3JkZXJfZXhjaGFuZ2VfaWQY",
+            "AyABKAkiuAIKD1BsYWNlQmF0Y2hPcmRlchISCgphY2NvdW50X25vGAEgASgJ",
+            "EjwKCm9yZGVyX2xpc3QYAyADKAsyKC5kd2prLmR0cC5QbGFjZUJhdGNoT3Jk",
+            "ZXIuQmF0Y2hPcmRlckl0ZW0a0gEKDkJhdGNoT3JkZXJJdGVtEiQKCGV4Y2hh",
+            "bmdlGAEgASgOMhIuZHdqay5kdHAuRXhjaGFuZ2USDAoEY29kZRgCIAEoCRIn",
+            "CgpvcmRlcl9zaWRlGAMgASgOMhMuZHdqay5kdHAuT3JkZXJTaWRlEg0KBXBy",
+            "aWNlGAQgASgJEhAKCHF1YW50aXR5GAUgASgNEicKCm9yZGVyX3R5cGUYBiAB",
+            "KA4yEy5kd2prLmR0cC5PcmRlclR5cGUSGQoRb3JkZXJfb3JpZ2luYWxfaWQY",
+            "ByABKAkiqQIKDFBsYWNlZFJlcG9ydBIZChFvcmRlcl9leGNoYW5nZV9pZBgB",
+            "IAEoCRITCgtwbGFjZWRfdGltZRgCIAEoCRIVCg1mcmVlemVfYW1vdW50GAMg",
+            "ASgJEiUKBnN0YXR1cxgEIAEoDjIVLmR3amsuZHRwLk9yZGVyU3RhdHVzEhkK",
+            "EW9yZGVyX29yaWdpbmFsX2lkGAUgASgJEhIKCmFjY291bnRfbm8YBiABKAkS",
+            "JAoIZXhjaGFuZ2UYByABKA4yEi5kd2prLmR0cC5FeGNoYW5nZRIMCgRjb2Rl",
+            "GAggASgJEhAKCHF1YW50aXR5GAkgASgNEicKCm9yZGVyX3NpZGUYCiABKA4y",
+            "Ey5kd2prLmR0cC5PcmRlclNpZGUSDQoFcHJpY2UYCyABKAki3AMKCkZpbGxS",
+            "ZXBvcnQSGAoQZmlsbF9leGNoYW5nZV9pZBgBIAEoCRIRCglmaWxsX3RpbWUY",
+            "AiABKAkSKQoLZmlsbF9zdGF0dXMYAyABKA4yFC5kd2prLmR0cC5GaWxsU3Rh",
+            "dHVzEhIKCmZpbGxfcHJpY2UYBCABKAkSFQoNZmlsbF9xdWFudGl0eRgFIAEo",
+            "DRITCgtmaWxsX2Ftb3VudBgGIAEoCRIUCgxjbGVhcl9hbW91bnQYByABKAkS",
+            "GwoTdG90YWxfZmlsbF9xdWFudGl0eRgIIAEoDRIZChF0b3RhbF9maWxsX2Ft",
+            "b3VudBgJIAEoCRIgChh0b3RhbF9jYW5jZWxsZWRfcXVhbnRpdHkYCiABKA0S",
+            "GQoRb3JkZXJfZXhjaGFuZ2VfaWQYCyABKAkSGQoRb3JkZXJfb3JpZ2luYWxf",
+            "aWQYDCABKAkSEgoKYWNjb3VudF9ubxgNIAEoCRIkCghleGNoYW5nZRgOIAEo",
+            "DjISLmR3amsuZHRwLkV4Y2hhbmdlEgwKBGNvZGUYDyABKAkSDQoFcHJpY2UY",
+            "ECABKAkSEAoIcXVhbnRpdHkYESABKA0SJwoKb3JkZXJfc2lkZRgSIAEoDjIT",
+            "LmR3amsuZHRwLk9yZGVyU2lkZSLEAgoSQ2FuY2VsbGF0aW9uUmVwb3J0EhkK",
+            "EW9yZGVyX2V4Y2hhbmdlX2lkGAEgASgJEhkKEW9yZGVyX29yaWdpbmFsX2lk",
+            "GAIgASgJEhIKCmFjY291bnRfbm8YAyABKAkSJAoIZXhjaGFuZ2UYBCABKA4y",
+            "Ei5kd2prLmR0cC5FeGNoYW5nZRIMCgRjb2RlGAUgASgJEhAKCHF1YW50aXR5",
+            "GAYgASgNEicKCm9yZGVyX3NpZGUYByABKA4yEy5kd2prLmR0cC5PcmRlclNp",
+            "ZGUSJQoGc3RhdHVzGAggASgOMhUuZHdqay5kdHAuT3JkZXJTdGF0dXMSGwoT",
+            "dG90YWxfZmlsbF9xdWFudGl0eRgJIAEoDRIaChJjYW5jZWxsZWRfcXVhbnRp",
+            "dHkYCiABKA0SFQoNZnJlZXplX2Ftb3VudBgLIAEoCSKgAgoSUXVlcnlPcmRl",
+            "cnNSZXF1ZXN0EhIKCmFjY291bnRfbm8YASABKAkSGQoRb3JkZXJfZXhjaGFu",
+            "Z2VfaWQYAiABKAkSNAoOcXVlcnlfY3JpdGVyaWEYAyABKA4yHC5kd2prLmR0",
+            "cC5RdWVyeU9yZGVyQ3JpdGVyaWESLQoKcGFnaW5hdGlvbhgEIAEoCzIZLmR3",
+            "amsuZHRwLlF1ZXJ5UGFnaW5hdGlvbhIkCghleGNoYW5nZRgFIAEoDjISLmR3",
+            "amsuZHRwLkV4Y2hhbmdlEgwKBGNvZGUYBiABKAkSGQoRb3JkZXJfb3JpZ2lu",
+            "YWxfaWQYByABKAkSJwoKb3JkZXJfc2lkZRgIIAEoDjITLmR3amsuZHRwLk9y",
+            "ZGVyU2lkZSL8BAoTUXVlcnlPcmRlcnNSZXNwb25zZRI3CgpvcmRlcl9saXN0",
+            "GAEgAygLMiMuZHdqay5kdHAuUXVlcnlPcmRlcnNSZXNwb25zZS5PcmRlchIt",
+            "CgpwYWdpbmF0aW9uGAIgASgLMhkuZHdqay5kdHAuUXVlcnlQYWdpbmF0aW9u",
+            "GvwDCgVPcmRlchIZChFvcmRlcl9leGNoYW5nZV9pZBgBIAEoCRIZChFvcmRl",
+            "cl9vcmlnaW5hbF9pZBgCIAEoCRIkCghleGNoYW5nZRgDIAEoDjISLmR3amsu",
+            "ZHRwLkV4Y2hhbmdlEgwKBGNvZGUYBCABKAkSDAoEbmFtZRgFIAEoCRINCgVw",
+            "cmljZRgGIAEoCRIQCghxdWFudGl0eRgHIAEoDRInCgpvcmRlcl9zaWRlGAgg",
+            "ASgOMhMuZHdqay5kdHAuT3JkZXJTaWRlEicKCm9yZGVyX3R5cGUYCSABKA4y",
+            "Ey5kd2prLmR0cC5PcmRlclR5cGUSJQoGc3RhdHVzGAogASgOMhUuZHdqay5k",
+            "dHAuT3JkZXJTdGF0dXMSEgoKb3JkZXJfdGltZRgLIAEoCRISCgphY2NvdW50",
+            "X25vGAwgASgJEhoKEmF2ZXJhZ2VfZmlsbF9wcmljZRgNIAEoCRIbChN0b3Rh",
+            "bF9maWxsX3F1YW50aXR5GA4gASgNEhkKEXRvdGFsX2ZpbGxfYW1vdW50GA8g",
+            "ASgJEhUKDWZyZWV6ZV9hbW91bnQYECABKAkSFAoMY2xlYXJfYW1vdW50GBEg",
+            "ASgJEiAKGHRvdGFsX2NhbmNlbGxlZF9xdWFudGl0eRgSIAEoDRIWCg5zdGF0",
+            "dXNfbWVzc2FnZRgTIAEoCSKGAgoRUXVlcnlGaWxsc1JlcXVlc3QSEgoKYWNj",
+            "b3VudF9ubxgBIAEoCRIZChFvcmRlcl9leGNoYW5nZV9pZBgCIAEoCRItCgpw",
+            "YWdpbmF0aW9uGAMgASgLMhkuZHdqay5kdHAuUXVlcnlQYWdpbmF0aW9uEiQK",
+            "CGV4Y2hhbmdlGAQgASgOMhIuZHdqay5kdHAuRXhjaGFuZ2USDAoEY29kZRgF",
+            "IAEoCRIZChFvcmRlcl9vcmlnaW5hbF9pZBgGIAEoCRInCgpvcmRlcl9zaWRl",
+            "GAcgASgOMhMuZHdqay5kdHAuT3JkZXJTaWRlEhsKE2luY2x1ZGVfY2FuY2Vs",
+            "X2ZpbGwYCCABKAgi0QMKElF1ZXJ5RmlsbHNSZXNwb25zZRI0CglmaWxsX2xp",
+            "c3QYASADKAsyIS5kd2prLmR0cC5RdWVyeUZpbGxzUmVzcG9uc2UuRmlsbBIt",
+            "CgpwYWdpbmF0aW9uGAIgASgLMhkuZHdqay5kdHAuUXVlcnlQYWdpbmF0aW9u",
+            "GtUCCgRGaWxsEhgKEGZpbGxfZXhjaGFuZ2VfaWQYASABKAkSEQoJZmlsbF90",
+            "aW1lGAIgASgJEikKC2ZpbGxfc3RhdHVzGAMgASgOMhQuZHdqay5kdHAuRmls",
+            "bFN0YXR1cxISCgpmaWxsX3ByaWNlGAQgASgJEhUKDWZpbGxfcXVhbnRpdHkY",
+            "BSABKA0SEwoLZmlsbF9hbW91bnQYBiABKAkSFAoMY2xlYXJfYW1vdW50GAcg",
+            "ASgJEhkKEW9yZGVyX2V4Y2hhbmdlX2lkGAggASgJEhkKEW9yZGVyX29yaWdp",
+            "bmFsX2lkGAkgASgJEiQKCGV4Y2hhbmdlGAogASgOMhIuZHdqay5kdHAuRXhj",
+            "aGFuZ2USDAoEY29kZRgLIAEoCRIMCgRuYW1lGAwgASgJEicKCm9yZGVyX3Np",
+            "ZGUYDSABKA4yEy5kd2prLmR0cC5PcmRlclNpZGUiKQoTUXVlcnlDYXBpdGFs",
+            "UmVxdWVzdBISCgphY2NvdW50X25vGAEgASgJIoEBChRRdWVyeUNhcGl0YWxS",
+            "ZXNwb25zZRISCgphY2NvdW50X25vGAEgASgJEg8KB2JhbGFuY2UYAiABKAkS",
+            "EQoJYXZhaWxhYmxlGAMgASgJEg4KBmZyZWV6ZRgEIAEoCRISCgpzZWN1cml0",
+            "aWVzGAUgASgJEg0KBXRvdGFsGAYgASgJIo0BChRRdWVyeVBvc2l0aW9uUmVx",
+            "dWVzdBISCgphY2NvdW50X25vGAEgASgJEiQKCGV4Y2hhbmdlGAIgASgOMhIu",
+            "ZHdqay5kdHAuRXhjaGFuZ2USDAoEY29kZRgDIAEoCRItCgpwYWdpbmF0aW9u",
+            "GAQgASgLMhkuZHdqay5kdHAuUXVlcnlQYWdpbmF0aW9uIvkCChVRdWVyeVBv",
+            "c2l0aW9uUmVzcG9uc2USRQoNcG9zaXRpb25fbGlzdBgBIAMoCzIuLmR3amsu",
+            "ZHRwLlF1ZXJ5UG9zaXRpb25SZXNwb25zZS5Qb3NpdGlvbkRldGFpbBItCgpw",
+            "YWdpbmF0aW9uGAIgASgLMhkuZHdqay5kdHAuUXVlcnlQYWdpbmF0aW9uGukB",
+            "Cg5Qb3NpdGlvbkRldGFpbBIkCghleGNoYW5nZRgBIAEoDjISLmR3amsuZHRw",
+            "LkV4Y2hhbmdlEgwKBGNvZGUYAiABKAkSDAoEbmFtZRgDIAEoCRIPCgdiYWxh",
+            "bmNlGAQgASgDEhoKEmF2YWlsYWJsZV9xdWFudGl0eRgFIAEoAxIXCg9mcmVl",
+            "emVfcXVhbnRpdHkYBiABKAUSFAoMYnV5X3F1YW50aXR5GAcgASgDEhUKDXNl",
+            "bGxfcXVhbnRpdHkYCCABKAMSFAoMbWFya2V0X3ZhbHVlGAkgASgJEgwKBGNv",
+            "c3QYCiABKAkiKAoSUXVlcnlSYXRpb25SZXF1ZXN0EhIKCmFjY291bnRfbm8Y",
+            "ASABKAkipgEKE1F1ZXJ5UmF0aW9uUmVzcG9uc2USOQoLcmF0aW9uX2xpc3QY",
+            "ASADKAsyJC5kd2prLmR0cC5RdWVyeVJhdGlvblJlc3BvbnNlLlJhdGlvbhpU",
+            "CgZSYXRpb24SEgoKYWNjb3VudF9ubxgBIAEoCRIkCghleGNoYW5nZRgCIAEo",
+            "DjISLmR3amsuZHRwLkV4Y2hhbmdlEhAKCHF1YW50aXR5GAMgASgNIi8KD1F1",
+            "ZXJ5UGFnaW5hdGlvbhIOCgZvZmZzZXQYASABKA0SDAoEc2l6ZRgCIAEoDWIG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Dwjk.Dtp.DtpTypeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -141,16 +143,16 @@ namespace Dwjk.Dtp {
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.LoginAccountResponse), global::Dwjk.Dtp.LoginAccountResponse.Parser, new[]{ "Token" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.LogoutAccountRequest), global::Dwjk.Dtp.LogoutAccountRequest.Parser, new[]{ "AccountNo" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.LogoutAccountResponse), global::Dwjk.Dtp.LogoutAccountResponse.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.PlaceBatchOrder), global::Dwjk.Dtp.PlaceBatchOrder.Parser, new[]{ "AccountNo", "OrderCounte", "OrderList" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem), global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem.Parser, new[]{ "Exchange", "Code", "OrderSide", "Price", "Quantity", "OrderType", "OrderOriginalId" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.PlaceOrder), global::Dwjk.Dtp.PlaceOrder.Parser, new[]{ "AccountNo", "OrderOriginalId", "Exchange", "Code", "Price", "Quantity", "OrderSide", "OrderType" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.CancelOrder), global::Dwjk.Dtp.CancelOrder.Parser, new[]{ "AccountNo", "Exchange", "OrderExchangeId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.PlaceBatchOrder), global::Dwjk.Dtp.PlaceBatchOrder.Parser, new[]{ "AccountNo", "OrderList" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem), global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem.Parser, new[]{ "Exchange", "Code", "OrderSide", "Price", "Quantity", "OrderType", "OrderOriginalId" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.PlacedReport), global::Dwjk.Dtp.PlacedReport.Parser, new[]{ "OrderExchangeId", "PlacedTime", "FreezeAmount", "Status", "OrderOriginalId", "AccountNo", "Exchange", "Code", "Quantity", "OrderSide", "Price" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.FillReport), global::Dwjk.Dtp.FillReport.Parser, new[]{ "FillExchangeId", "FillTime", "FillStatus", "FillPrice", "FillQuantity", "FillAmount", "ClearAmount", "TotalFillQuantity", "TotalFillAmount", "TotalCancelledQuantity", "OrderExchangeId", "OrderOriginalId", "AccountNo", "Exchange", "Code", "Price", "Quantity", "OrderSide" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.CancellationReport), global::Dwjk.Dtp.CancellationReport.Parser, new[]{ "OrderExchangeId", "OrderOriginalId", "AccountNo", "Exchange", "Code", "Quantity", "OrderSide", "Status", "TotalFillQuantity", "CancelledQuantity", "FreezeAmount" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryOrdersRequest), global::Dwjk.Dtp.QueryOrdersRequest.Parser, new[]{ "AccountNo", "OrderExchangeId", "QueryCriteria", "Pagination", "Exchange", "Code", "OrderOriginalId", "OrderSide" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryOrdersResponse), global::Dwjk.Dtp.QueryOrdersResponse.Parser, new[]{ "OrderList" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryOrdersResponse.Types.Order), global::Dwjk.Dtp.QueryOrdersResponse.Types.Order.Parser, new[]{ "OrderExchangeId", "OrderOriginalId", "Exchange", "Code", "Name", "Price", "Quantity", "OrderSide", "OrderType", "Status", "OrderTime", "AccountNo", "AverageFillPrice", "TotalFillQuantity", "TotalFillAmount", "FreezeAmount", "ClearAmount", "TotalCancelledQuantity", "StatusMessage" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryOrdersResponse), global::Dwjk.Dtp.QueryOrdersResponse.Parser, new[]{ "OrderList", "Pagination" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryOrdersResponse.Types.Order), global::Dwjk.Dtp.QueryOrdersResponse.Types.Order.Parser, new[]{ "OrderExchangeId", "OrderOriginalId", "Exchange", "Code", "Name", "Price", "Quantity", "OrderSide", "OrderType", "Status", "OrderTime", "AccountNo", "AverageFillPrice", "TotalFillQuantity", "TotalFillAmount", "FreezeAmount", "ClearAmount", "TotalCancelledQuantity", "StatusMessage" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryFillsRequest), global::Dwjk.Dtp.QueryFillsRequest.Parser, new[]{ "AccountNo", "OrderExchangeId", "Pagination", "Exchange", "Code", "OrderOriginalId", "OrderSide", "IncludeCancelFill" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryFillsResponse), global::Dwjk.Dtp.QueryFillsResponse.Parser, new[]{ "FillList" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryFillsResponse.Types.Fill), global::Dwjk.Dtp.QueryFillsResponse.Types.Fill.Parser, new[]{ "FillExchangeId", "FillTime", "FillStatus", "FillPrice", "FillQuantity", "FillAmount", "ClearAmount", "OrderExchangeId", "OrderOriginalId", "Exchange", "Code", "Name", "OrderSide" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryFillsResponse), global::Dwjk.Dtp.QueryFillsResponse.Parser, new[]{ "FillList", "Pagination" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryFillsResponse.Types.Fill), global::Dwjk.Dtp.QueryFillsResponse.Types.Fill.Parser, new[]{ "FillExchangeId", "FillTime", "FillStatus", "FillPrice", "FillQuantity", "FillAmount", "ClearAmount", "OrderExchangeId", "OrderOriginalId", "Exchange", "Code", "Name", "OrderSide" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryCapitalRequest), global::Dwjk.Dtp.QueryCapitalRequest.Parser, new[]{ "AccountNo" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryCapitalResponse), global::Dwjk.Dtp.QueryCapitalResponse.Parser, new[]{ "AccountNo", "Balance", "Available", "Freeze", "Securities", "Total" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Dwjk.Dtp.QueryPositionRequest), global::Dwjk.Dtp.QueryPositionRequest.Parser, new[]{ "AccountNo", "Exchange", "Code", "Pagination" }, null, null, null),
@@ -1308,519 +1310,6 @@ namespace Dwjk.Dtp {
   }
 
   /// <summary>
-  ///*********************************************
-  /// 批量操作API
-  ///*********************************************
-  /// </summary>
-  public sealed partial class PlaceBatchOrder : pb::IMessage<PlaceBatchOrder> {
-    private static readonly pb::MessageParser<PlaceBatchOrder> _parser = new pb::MessageParser<PlaceBatchOrder>(() => new PlaceBatchOrder());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<PlaceBatchOrder> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dwjk.Dtp.DtpApiReflection.Descriptor.MessageTypes[7]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public PlaceBatchOrder() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public PlaceBatchOrder(PlaceBatchOrder other) : this() {
-      accountNo_ = other.accountNo_;
-      orderCounte_ = other.orderCounte_;
-      orderList_ = other.orderList_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public PlaceBatchOrder Clone() {
-      return new PlaceBatchOrder(this);
-    }
-
-    /// <summary>Field number for the "account_no" field.</summary>
-    public const int AccountNoFieldNumber = 1;
-    private string accountNo_ = "";
-    /// <summary>
-    /// 资金账号
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string AccountNo {
-      get { return accountNo_; }
-      set {
-        accountNo_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "order_counte" field.</summary>
-    public const int OrderCounteFieldNumber = 2;
-    private uint orderCounte_;
-    /// <summary>
-    /// 委托笔数
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public uint OrderCounte {
-      get { return orderCounte_; }
-      set {
-        orderCounte_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "order_list" field.</summary>
-    public const int OrderListFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem> _repeated_orderList_codec
-        = pb::FieldCodec.ForMessage(26, global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem.Parser);
-    private readonly pbc::RepeatedField<global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem> orderList_ = new pbc::RepeatedField<global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem> OrderList {
-      get { return orderList_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as PlaceBatchOrder);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(PlaceBatchOrder other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (AccountNo != other.AccountNo) return false;
-      if (OrderCounte != other.OrderCounte) return false;
-      if(!orderList_.Equals(other.orderList_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (AccountNo.Length != 0) hash ^= AccountNo.GetHashCode();
-      if (OrderCounte != 0) hash ^= OrderCounte.GetHashCode();
-      hash ^= orderList_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (AccountNo.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(AccountNo);
-      }
-      if (OrderCounte != 0) {
-        output.WriteRawTag(16);
-        output.WriteUInt32(OrderCounte);
-      }
-      orderList_.WriteTo(output, _repeated_orderList_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (AccountNo.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccountNo);
-      }
-      if (OrderCounte != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(OrderCounte);
-      }
-      size += orderList_.CalculateSize(_repeated_orderList_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(PlaceBatchOrder other) {
-      if (other == null) {
-        return;
-      }
-      if (other.AccountNo.Length != 0) {
-        AccountNo = other.AccountNo;
-      }
-      if (other.OrderCounte != 0) {
-        OrderCounte = other.OrderCounte;
-      }
-      orderList_.Add(other.orderList_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            AccountNo = input.ReadString();
-            break;
-          }
-          case 16: {
-            OrderCounte = input.ReadUInt32();
-            break;
-          }
-          case 26: {
-            orderList_.AddEntriesFrom(input, _repeated_orderList_codec);
-            break;
-          }
-        }
-      }
-    }
-
-    #region Nested types
-    /// <summary>Container for nested types declared in the PlaceBatchOrder message type.</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static partial class Types {
-      public sealed partial class BatchOrderItem : pb::IMessage<BatchOrderItem> {
-        private static readonly pb::MessageParser<BatchOrderItem> _parser = new pb::MessageParser<BatchOrderItem>(() => new BatchOrderItem());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public static pb::MessageParser<BatchOrderItem> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::Dwjk.Dtp.PlaceBatchOrder.Descriptor.NestedTypes[0]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public BatchOrderItem() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public BatchOrderItem(BatchOrderItem other) : this() {
-          exchange_ = other.exchange_;
-          code_ = other.code_;
-          orderSide_ = other.orderSide_;
-          price_ = other.price_;
-          quantity_ = other.quantity_;
-          orderType_ = other.orderType_;
-          orderOriginalId_ = other.orderOriginalId_;
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public BatchOrderItem Clone() {
-          return new BatchOrderItem(this);
-        }
-
-        /// <summary>Field number for the "exchange" field.</summary>
-        public const int ExchangeFieldNumber = 1;
-        private global::Dwjk.Dtp.Exchange exchange_ = 0;
-        /// <summary>
-        /// 交易所
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public global::Dwjk.Dtp.Exchange Exchange {
-          get { return exchange_; }
-          set {
-            exchange_ = value;
-          }
-        }
-
-        /// <summary>Field number for the "code" field.</summary>
-        public const int CodeFieldNumber = 2;
-        private string code_ = "";
-        /// <summary>
-        /// 证券代码
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public string Code {
-          get { return code_; }
-          set {
-            code_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-          }
-        }
-
-        /// <summary>Field number for the "order_side" field.</summary>
-        public const int OrderSideFieldNumber = 3;
-        private global::Dwjk.Dtp.OrderSide orderSide_ = 0;
-        /// <summary>
-        /// 委托方向，只支持买卖
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public global::Dwjk.Dtp.OrderSide OrderSide {
-          get { return orderSide_; }
-          set {
-            orderSide_ = value;
-          }
-        }
-
-        /// <summary>Field number for the "price" field.</summary>
-        public const int PriceFieldNumber = 4;
-        private string price_ = "";
-        /// <summary>
-        /// 价格留3位小数
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public string Price {
-          get { return price_; }
-          set {
-            price_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-          }
-        }
-
-        /// <summary>Field number for the "quantity" field.</summary>
-        public const int QuantityFieldNumber = 5;
-        private uint quantity_;
-        /// <summary>
-        /// 委托数量
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public uint Quantity {
-          get { return quantity_; }
-          set {
-            quantity_ = value;
-          }
-        }
-
-        /// <summary>Field number for the "order_type" field.</summary>
-        public const int OrderTypeFieldNumber = 6;
-        private global::Dwjk.Dtp.OrderType orderType_ = 0;
-        /// <summary>
-        /// 委托竞价类型
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public global::Dwjk.Dtp.OrderType OrderType {
-          get { return orderType_; }
-          set {
-            orderType_ = value;
-          }
-        }
-
-        /// <summary>Field number for the "order_original_id" field.</summary>
-        public const int OrderOriginalIdFieldNumber = 7;
-        private string orderOriginalId_ = "";
-        /// <summary>
-        /// 客户委托号
-        /// </summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public string OrderOriginalId {
-          get { return orderOriginalId_; }
-          set {
-            orderOriginalId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-          }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override bool Equals(object other) {
-          return Equals(other as BatchOrderItem);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public bool Equals(BatchOrderItem other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          if (Exchange != other.Exchange) return false;
-          if (Code != other.Code) return false;
-          if (OrderSide != other.OrderSide) return false;
-          if (Price != other.Price) return false;
-          if (Quantity != other.Quantity) return false;
-          if (OrderType != other.OrderType) return false;
-          if (OrderOriginalId != other.OrderOriginalId) return false;
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (Exchange != 0) hash ^= Exchange.GetHashCode();
-          if (Code.Length != 0) hash ^= Code.GetHashCode();
-          if (OrderSide != 0) hash ^= OrderSide.GetHashCode();
-          if (Price.Length != 0) hash ^= Price.GetHashCode();
-          if (Quantity != 0) hash ^= Quantity.GetHashCode();
-          if (OrderType != 0) hash ^= OrderType.GetHashCode();
-          if (OrderOriginalId.Length != 0) hash ^= OrderOriginalId.GetHashCode();
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void WriteTo(pb::CodedOutputStream output) {
-          if (Exchange != 0) {
-            output.WriteRawTag(8);
-            output.WriteEnum((int) Exchange);
-          }
-          if (Code.Length != 0) {
-            output.WriteRawTag(18);
-            output.WriteString(Code);
-          }
-          if (OrderSide != 0) {
-            output.WriteRawTag(24);
-            output.WriteEnum((int) OrderSide);
-          }
-          if (Price.Length != 0) {
-            output.WriteRawTag(34);
-            output.WriteString(Price);
-          }
-          if (Quantity != 0) {
-            output.WriteRawTag(40);
-            output.WriteUInt32(Quantity);
-          }
-          if (OrderType != 0) {
-            output.WriteRawTag(48);
-            output.WriteEnum((int) OrderType);
-          }
-          if (OrderOriginalId.Length != 0) {
-            output.WriteRawTag(58);
-            output.WriteString(OrderOriginalId);
-          }
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public int CalculateSize() {
-          int size = 0;
-          if (Exchange != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Exchange);
-          }
-          if (Code.Length != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeStringSize(Code);
-          }
-          if (OrderSide != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) OrderSide);
-          }
-          if (Price.Length != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeStringSize(Price);
-          }
-          if (Quantity != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Quantity);
-          }
-          if (OrderType != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) OrderType);
-          }
-          if (OrderOriginalId.Length != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeStringSize(OrderOriginalId);
-          }
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void MergeFrom(BatchOrderItem other) {
-          if (other == null) {
-            return;
-          }
-          if (other.Exchange != 0) {
-            Exchange = other.Exchange;
-          }
-          if (other.Code.Length != 0) {
-            Code = other.Code;
-          }
-          if (other.OrderSide != 0) {
-            OrderSide = other.OrderSide;
-          }
-          if (other.Price.Length != 0) {
-            Price = other.Price;
-          }
-          if (other.Quantity != 0) {
-            Quantity = other.Quantity;
-          }
-          if (other.OrderType != 0) {
-            OrderType = other.OrderType;
-          }
-          if (other.OrderOriginalId.Length != 0) {
-            OrderOriginalId = other.OrderOriginalId;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void MergeFrom(pb::CodedInputStream input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-              case 8: {
-                exchange_ = (global::Dwjk.Dtp.Exchange) input.ReadEnum();
-                break;
-              }
-              case 18: {
-                Code = input.ReadString();
-                break;
-              }
-              case 24: {
-                orderSide_ = (global::Dwjk.Dtp.OrderSide) input.ReadEnum();
-                break;
-              }
-              case 34: {
-                Price = input.ReadString();
-                break;
-              }
-              case 40: {
-                Quantity = input.ReadUInt32();
-                break;
-              }
-              case 48: {
-                orderType_ = (global::Dwjk.Dtp.OrderType) input.ReadEnum();
-                break;
-              }
-              case 58: {
-                OrderOriginalId = input.ReadString();
-                break;
-              }
-            }
-          }
-        }
-
-      }
-
-    }
-    #endregion
-
-  }
-
-  /// <summary>
   /// MUST: RequestHeader.api_id = 10002001
   /// </summary>
   public sealed partial class PlaceOrder : pb::IMessage<PlaceOrder> {
@@ -1831,7 +1320,7 @@ namespace Dwjk.Dtp {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dwjk.Dtp.DtpApiReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Dwjk.Dtp.DtpApiReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2183,7 +1672,7 @@ namespace Dwjk.Dtp {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Dwjk.Dtp.DtpApiReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Dwjk.Dtp.DtpApiReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2360,6 +1849,488 @@ namespace Dwjk.Dtp {
         }
       }
     }
+
+  }
+
+  /// <summary>
+  ///*********************************************
+  /// 批量操作API
+  ///*********************************************
+  /// </summary>
+  public sealed partial class PlaceBatchOrder : pb::IMessage<PlaceBatchOrder> {
+    private static readonly pb::MessageParser<PlaceBatchOrder> _parser = new pb::MessageParser<PlaceBatchOrder>(() => new PlaceBatchOrder());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<PlaceBatchOrder> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Dwjk.Dtp.DtpApiReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PlaceBatchOrder() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PlaceBatchOrder(PlaceBatchOrder other) : this() {
+      accountNo_ = other.accountNo_;
+      orderList_ = other.orderList_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PlaceBatchOrder Clone() {
+      return new PlaceBatchOrder(this);
+    }
+
+    /// <summary>Field number for the "account_no" field.</summary>
+    public const int AccountNoFieldNumber = 1;
+    private string accountNo_ = "";
+    /// <summary>
+    /// 资金账号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AccountNo {
+      get { return accountNo_; }
+      set {
+        accountNo_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "order_list" field.</summary>
+    public const int OrderListFieldNumber = 3;
+    private static readonly pb::FieldCodec<global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem> _repeated_orderList_codec
+        = pb::FieldCodec.ForMessage(26, global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem.Parser);
+    private readonly pbc::RepeatedField<global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem> orderList_ = new pbc::RepeatedField<global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem> OrderList {
+      get { return orderList_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as PlaceBatchOrder);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(PlaceBatchOrder other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AccountNo != other.AccountNo) return false;
+      if(!orderList_.Equals(other.orderList_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AccountNo.Length != 0) hash ^= AccountNo.GetHashCode();
+      hash ^= orderList_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (AccountNo.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AccountNo);
+      }
+      orderList_.WriteTo(output, _repeated_orderList_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (AccountNo.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AccountNo);
+      }
+      size += orderList_.CalculateSize(_repeated_orderList_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(PlaceBatchOrder other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AccountNo.Length != 0) {
+        AccountNo = other.AccountNo;
+      }
+      orderList_.Add(other.orderList_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AccountNo = input.ReadString();
+            break;
+          }
+          case 26: {
+            orderList_.AddEntriesFrom(input, _repeated_orderList_codec);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the PlaceBatchOrder message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class BatchOrderItem : pb::IMessage<BatchOrderItem> {
+        private static readonly pb::MessageParser<BatchOrderItem> _parser = new pb::MessageParser<BatchOrderItem>(() => new BatchOrderItem());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<BatchOrderItem> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Dwjk.Dtp.PlaceBatchOrder.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public BatchOrderItem() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public BatchOrderItem(BatchOrderItem other) : this() {
+          exchange_ = other.exchange_;
+          code_ = other.code_;
+          orderSide_ = other.orderSide_;
+          price_ = other.price_;
+          quantity_ = other.quantity_;
+          orderType_ = other.orderType_;
+          orderOriginalId_ = other.orderOriginalId_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public BatchOrderItem Clone() {
+          return new BatchOrderItem(this);
+        }
+
+        /// <summary>Field number for the "exchange" field.</summary>
+        public const int ExchangeFieldNumber = 1;
+        private global::Dwjk.Dtp.Exchange exchange_ = 0;
+        /// <summary>
+        /// 交易所
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Dwjk.Dtp.Exchange Exchange {
+          get { return exchange_; }
+          set {
+            exchange_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "code" field.</summary>
+        public const int CodeFieldNumber = 2;
+        private string code_ = "";
+        /// <summary>
+        /// 证券代码
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Code {
+          get { return code_; }
+          set {
+            code_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "order_side" field.</summary>
+        public const int OrderSideFieldNumber = 3;
+        private global::Dwjk.Dtp.OrderSide orderSide_ = 0;
+        /// <summary>
+        /// 委托方向，只支持买卖
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Dwjk.Dtp.OrderSide OrderSide {
+          get { return orderSide_; }
+          set {
+            orderSide_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "price" field.</summary>
+        public const int PriceFieldNumber = 4;
+        private string price_ = "";
+        /// <summary>
+        /// 价格留3位小数
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Price {
+          get { return price_; }
+          set {
+            price_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "quantity" field.</summary>
+        public const int QuantityFieldNumber = 5;
+        private uint quantity_;
+        /// <summary>
+        /// 委托数量
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public uint Quantity {
+          get { return quantity_; }
+          set {
+            quantity_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "order_type" field.</summary>
+        public const int OrderTypeFieldNumber = 6;
+        private global::Dwjk.Dtp.OrderType orderType_ = 0;
+        /// <summary>
+        /// 委托竞价类型
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Dwjk.Dtp.OrderType OrderType {
+          get { return orderType_; }
+          set {
+            orderType_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "order_original_id" field.</summary>
+        public const int OrderOriginalIdFieldNumber = 7;
+        private string orderOriginalId_ = "";
+        /// <summary>
+        /// 客户委托号
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string OrderOriginalId {
+          get { return orderOriginalId_; }
+          set {
+            orderOriginalId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as BatchOrderItem);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(BatchOrderItem other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Exchange != other.Exchange) return false;
+          if (Code != other.Code) return false;
+          if (OrderSide != other.OrderSide) return false;
+          if (Price != other.Price) return false;
+          if (Quantity != other.Quantity) return false;
+          if (OrderType != other.OrderType) return false;
+          if (OrderOriginalId != other.OrderOriginalId) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Exchange != 0) hash ^= Exchange.GetHashCode();
+          if (Code.Length != 0) hash ^= Code.GetHashCode();
+          if (OrderSide != 0) hash ^= OrderSide.GetHashCode();
+          if (Price.Length != 0) hash ^= Price.GetHashCode();
+          if (Quantity != 0) hash ^= Quantity.GetHashCode();
+          if (OrderType != 0) hash ^= OrderType.GetHashCode();
+          if (OrderOriginalId.Length != 0) hash ^= OrderOriginalId.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (Exchange != 0) {
+            output.WriteRawTag(8);
+            output.WriteEnum((int) Exchange);
+          }
+          if (Code.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(Code);
+          }
+          if (OrderSide != 0) {
+            output.WriteRawTag(24);
+            output.WriteEnum((int) OrderSide);
+          }
+          if (Price.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(Price);
+          }
+          if (Quantity != 0) {
+            output.WriteRawTag(40);
+            output.WriteUInt32(Quantity);
+          }
+          if (OrderType != 0) {
+            output.WriteRawTag(48);
+            output.WriteEnum((int) OrderType);
+          }
+          if (OrderOriginalId.Length != 0) {
+            output.WriteRawTag(58);
+            output.WriteString(OrderOriginalId);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (Exchange != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Exchange);
+          }
+          if (Code.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Code);
+          }
+          if (OrderSide != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) OrderSide);
+          }
+          if (Price.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Price);
+          }
+          if (Quantity != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Quantity);
+          }
+          if (OrderType != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) OrderType);
+          }
+          if (OrderOriginalId.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(OrderOriginalId);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(BatchOrderItem other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Exchange != 0) {
+            Exchange = other.Exchange;
+          }
+          if (other.Code.Length != 0) {
+            Code = other.Code;
+          }
+          if (other.OrderSide != 0) {
+            OrderSide = other.OrderSide;
+          }
+          if (other.Price.Length != 0) {
+            Price = other.Price;
+          }
+          if (other.Quantity != 0) {
+            Quantity = other.Quantity;
+          }
+          if (other.OrderType != 0) {
+            OrderType = other.OrderType;
+          }
+          if (other.OrderOriginalId.Length != 0) {
+            OrderOriginalId = other.OrderOriginalId;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 8: {
+                exchange_ = (global::Dwjk.Dtp.Exchange) input.ReadEnum();
+                break;
+              }
+              case 18: {
+                Code = input.ReadString();
+                break;
+              }
+              case 24: {
+                orderSide_ = (global::Dwjk.Dtp.OrderSide) input.ReadEnum();
+                break;
+              }
+              case 34: {
+                Price = input.ReadString();
+                break;
+              }
+              case 40: {
+                Quantity = input.ReadUInt32();
+                break;
+              }
+              case 48: {
+                orderType_ = (global::Dwjk.Dtp.OrderType) input.ReadEnum();
+                break;
+              }
+              case 58: {
+                OrderOriginalId = input.ReadString();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
 
   }
 
@@ -4279,6 +4250,7 @@ namespace Dwjk.Dtp {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public QueryOrdersResponse(QueryOrdersResponse other) : this() {
       orderList_ = other.orderList_.Clone();
+      Pagination = other.pagination_ != null ? other.Pagination.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4297,6 +4269,17 @@ namespace Dwjk.Dtp {
       get { return orderList_; }
     }
 
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Dwjk.Dtp.QueryPagination pagination_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Dwjk.Dtp.QueryPagination Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as QueryOrdersResponse);
@@ -4311,6 +4294,7 @@ namespace Dwjk.Dtp {
         return true;
       }
       if(!orderList_.Equals(other.orderList_)) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4318,6 +4302,7 @@ namespace Dwjk.Dtp {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= orderList_.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4332,6 +4317,10 @@ namespace Dwjk.Dtp {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
       orderList_.WriteTo(output, _repeated_orderList_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4341,6 +4330,9 @@ namespace Dwjk.Dtp {
     public int CalculateSize() {
       int size = 0;
       size += orderList_.CalculateSize(_repeated_orderList_codec);
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -4353,6 +4345,12 @@ namespace Dwjk.Dtp {
         return;
       }
       orderList_.Add(other.orderList_);
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          pagination_ = new global::Dwjk.Dtp.QueryPagination();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -4366,6 +4364,13 @@ namespace Dwjk.Dtp {
             break;
           case 10: {
             orderList_.AddEntriesFrom(input, _repeated_orderList_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              pagination_ = new global::Dwjk.Dtp.QueryPagination();
+            }
+            input.ReadMessage(pagination_);
             break;
           }
         }
@@ -5431,6 +5436,7 @@ namespace Dwjk.Dtp {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public QueryFillsResponse(QueryFillsResponse other) : this() {
       fillList_ = other.fillList_.Clone();
+      Pagination = other.pagination_ != null ? other.Pagination.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5449,6 +5455,17 @@ namespace Dwjk.Dtp {
       get { return fillList_; }
     }
 
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Dwjk.Dtp.QueryPagination pagination_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Dwjk.Dtp.QueryPagination Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as QueryFillsResponse);
@@ -5463,6 +5480,7 @@ namespace Dwjk.Dtp {
         return true;
       }
       if(!fillList_.Equals(other.fillList_)) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5470,6 +5488,7 @@ namespace Dwjk.Dtp {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= fillList_.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5484,6 +5503,10 @@ namespace Dwjk.Dtp {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
       fillList_.WriteTo(output, _repeated_fillList_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5493,6 +5516,9 @@ namespace Dwjk.Dtp {
     public int CalculateSize() {
       int size = 0;
       size += fillList_.CalculateSize(_repeated_fillList_codec);
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -5505,6 +5531,12 @@ namespace Dwjk.Dtp {
         return;
       }
       fillList_.Add(other.fillList_);
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          pagination_ = new global::Dwjk.Dtp.QueryPagination();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -5518,6 +5550,13 @@ namespace Dwjk.Dtp {
             break;
           case 10: {
             fillList_.AddEntriesFrom(input, _repeated_fillList_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              pagination_ = new global::Dwjk.Dtp.QueryPagination();
+            }
+            input.ReadMessage(pagination_);
             break;
           }
         }

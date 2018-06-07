@@ -63,26 +63,7 @@ message LogoutAccountResponse
 {                                                   // MUST: ResponseHeader.api_id = 11001002
 }                                                   // 调用时 payload = ResponseHeader + LogoutAccountResponse(可以省略)
 
-//*********************************************
-// 批量操作API
-//*********************************************
-message PlaceBatchOrder                                  /* 提交批量委托 */
-{                                                        // MUST: RequestHeader.api_id = 10002001
-    string account_no = 1;                               // 资金账号
-    uint32 order_counte = 2;			         // 委托笔数
-    repeated BatchOrderItem order_list = 3;
 
-    message BatchOrderItem
-    {
-        Exchange exchange = 1;                          // 交易所
-	string code = 2;                                // 证券代码
-        OrderSide order_side = 3;                       // 委托方向，只支持买卖
-	string price = 4;                               // 价格留3位小数
-        uint32 quantity = 5;                            // 委托数量
-	OrderType order_type = 6;                       // 委托竞价类型
-	string order_original_id = 7;                   // 客户委托号
-    }
-}                 
 
 //*********************************************
 // 委托相关API
@@ -108,6 +89,29 @@ message CancelOrder                                 /* 提交单笔撤单委托 
     string order_exchange_id = 3;                   // 要撤的委托：交易所委托号
 }                                                   // 调用时 payload = RequestHeader + CancelOrder
                                                     // CancelOrder的响应使用CancellationReport
+
+
+
+//*********************************************
+// 批量操作API
+//*********************************************
+message PlaceBatchOrder                             /* 提交批量委托 */
+{                                                   // MUST: RequestHeader.api_id = 10002003
+    string account_no = 1;                          // 资金账号
+    repeated BatchOrderItem order_list = 3;
+
+    message BatchOrderItem
+    {
+        Exchange exchange = 1;                      // 交易所
+        string code = 2;                            // 证券代码
+        OrderSide order_side = 3;                   // 委托方向，只支持买卖
+        string price = 4;                           // 价格留3位小数
+        uint32 quantity = 5;                        // 委托数量
+        OrderType order_type = 6;                   // 委托竞价类型
+        string order_original_id = 7;               // 客户委托号
+    }
+}    
+
 
 
 //*********************************************
@@ -137,7 +141,7 @@ message FillReport                                  /* 消息: 委托成交回�
     string fill_time = 2;                           // 成交的时间,单位毫秒,不存日期;顶点柜台返回的是 HH:MM:SS 格式，推断交易所返回的也是这个格式，所以改成字符串格式 yinwb
     FillStatus fill_status = 3;                     // 成交状态 0:未知 1:成交 2:撤单 3: 废单 4:确认 (TBD: 可能来自'撤销标志')
                                                     // TBD: 成交状态中指的是什么，其中是否有撤单? 或者撤单成功会使用该回报?
-						    // *** 成交回报的状态只会有成交，所以这个状态可以删除
+                                                    // *** 成交回报的状态只会有成交，所以这个状态可以删除
     string fill_price = 4;                          // 本次成交价格
     uint32 fill_quantity = 5;                       // 本次成交数量; fill_status为撤单时，此数值为撤单数量(TBD)
     string fill_amount = 6;                         // 本次成交金额
@@ -195,6 +199,7 @@ message QueryOrdersRequest                          /* 查询委托详情 */
 message QueryOrdersResponse
 {                                                   // MUST: ResponseHeader.api_id = 11003001
     repeated Order order_list = 1;
+    QueryPagination pagination = 2;
 
     message Order                                   // 委托明细
     {
@@ -238,6 +243,7 @@ message QueryFillsRequest                           /* 查询成交详情 */  //
 message QueryFillsResponse
 {                                                   // MUST: ResponseHeader.api_id = 11003002
     repeated Fill fill_list = 1;
+    QueryPagination pagination = 2;
 
     message Fill                                    // 分笔成交明细
     {
@@ -287,7 +293,6 @@ message QueryPositionResponse
 {                                                   // MUST: ResponseHeader.api_id = 11003004
     repeated PositionDetail position_list = 1;
     QueryPagination pagination = 2;
-
     message PositionDetail
     {
         Exchange exchange = 1;                      // 交易所

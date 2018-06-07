@@ -19,19 +19,19 @@ namespace trade.client.Controls
         private void StatusBar_Load(object sender, EventArgs e)
         {
             this.ParentForm.FormClosing += On_Form_Close;
-            StockFaced.QuoteCache.OnCacheUpdated += On_StockUpdate;
+            StockFacade.QuoteCache.OnCacheUpdated += On_StockUpdate;
             InitTradeClient();
         }
 
         private void On_Form_Close(object sender, FormClosingEventArgs e)
         {
-            TradeClient.Clients().ForEach(UnBindTradeClient);
-            StockFaced.QuoteCache.OnCacheUpdated -= On_StockUpdate;
+            TradeFacade.Clients().ForEach(UnBindTradeClient);
+            StockFacade.QuoteCache.OnCacheUpdated -= On_StockUpdate;
         }
 
         private void InitTradeClient()
         {
-            TradeClient.Clients().ForEach(BindTradeClient);
+            TradeFacade.Clients().ForEach(BindTradeClient);
         }
 
         private void UnBindTradeClient(TradeClient obj)

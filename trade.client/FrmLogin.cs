@@ -79,7 +79,12 @@ namespace trade.client
 
         private void Login_Click(object sender, EventArgs e)
         {
-            DoLogin();
+            if (DoLogin())
+            {
+                FrmBar frmBar = new FrmBar();
+                frmBar.Show();
+                this.Hide();
+            }
         }
 
         private void ConfigList_SelectedIndexChanged(object sender, EventArgs e)
@@ -98,7 +103,7 @@ namespace trade.client
         {
             return AccountList.Text.Trim();
         }
-        private void DoLogin()
+        private bool DoLogin()
         {
             Config config = CurrentConfig();
             string account = CurrentAccount();
@@ -106,17 +111,17 @@ namespace trade.client
             if (config == null)
             {
                 MessageBox.Show("请选择服务配置");
-                return;
+                return false;
             }
             if (String.IsNullOrEmpty(account))
             {
                 MessageBox.Show("请输入账号");
-                return;
+                return false;
             }
             try
             {
                 SaveConfig();
-                TradeClient adapter = TradeClient.Create(
+                TradeClient adapter = TradeFacade.Create(
                     account,
                     txtPassword.Text,
                     config.TradeHost,
@@ -124,14 +129,16 @@ namespace trade.client
                     config.TradeOrderPort,
                     config.TradeReportPort
                     );
-                StockFaced.ConnectL1(config.ReferenceAddress);
-                StockFaced.ConnectL2(config.Level2Address);
-                StockFaced.UpdateStockAsync();
+                StockFacade.ConnectL1(config.ReferenceAddress);
+                StockFacade.ConnectL2(config.Level2Address);
+                StockFacade.UpdateStockAsync();
+                return true;
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            return false;
         }
         private void SaveConfig()
         {

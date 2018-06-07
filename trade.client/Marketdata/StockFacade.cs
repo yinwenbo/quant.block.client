@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace trade.client.Marketdata
 {
-    public class StockFaced
+    public class StockFacade
     {
         private static Level2Client Level2;
         private static Level1Client Level1;
@@ -16,7 +16,7 @@ namespace trade.client.Marketdata
             
         public static JsonCache<StockQuote> QuoteCache { get; private set; }
 
-        static StockFaced()
+        static StockFacade()
         {
             StockCache = new JsonCache<Stock>("stock.json", CacheKeyMaker);
             QuoteCache = new JsonCache<StockQuote>("quote.json", CacheKeyMaker);

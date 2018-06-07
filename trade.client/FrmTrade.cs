@@ -15,7 +15,7 @@ namespace trade.client
         public FrmTrade()
         {
             InitializeComponent();
-            StockFaced.QuoteCache.OnCacheUpdated += OnQuoteUpdated;
+            StockFacade.QuoteCache.OnCacheUpdated += OnQuoteUpdated;
         }
 
         private void QueryCapital()
@@ -68,7 +68,7 @@ namespace trade.client
 
         private void FrmTrade_FormClosing(object sender, FormClosingEventArgs e)
         {
-            StockFaced.QuoteCache.OnCacheUpdated -= OnQuoteUpdated;
+            StockFacade.QuoteCache.OnCacheUpdated -= OnQuoteUpdated;
         }
 
         private void Code_KeyPress(object sender, KeyPressEventArgs e)
@@ -97,9 +97,9 @@ namespace trade.client
 
         private void Code_TextChanged(object sender, EventArgs e)
         {
-            var stock = StockFaced.GetStock(Code.Text);
+            var stock = StockFacade.GetStock(Code.Text);
             if (stock != null) HandicapL2.Update(stock);
-            StockQuote quote = StockFaced.GetQuote(Code.Text);
+            StockQuote quote = StockFacade.GetQuote(Code.Text);
             if (quote != null) HandicapL2.Update(quote);
         }
 

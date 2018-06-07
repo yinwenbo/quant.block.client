@@ -91,42 +91,6 @@ namespace trade.client.Trade
         public const int ID_S_Q_IPOL_RESP = 11102006;
         #endregion
 
-        #region static functions
-        private static Dictionary<string, TradeClient> clients = new Dictionary<string, TradeClient>();
-        public static TradeClient GetClient(string accountNo)
-        {
-            TradeClient result = null;
-            if (clients.TryGetValue(accountNo, out result))
-            {
-                return result;
-            }
-            return null;
-        }
-        public static List<string> Accounts()
-        {
-            return clients.Keys.ToList();
-        }
-        public static List<TradeClient> Clients()
-        {
-            return clients.Values.ToList();
-        }
-        public static TradeClient Create(string accountNo, string password, string host, int requestPort, int dealerPort, int subscribePort)
-        {
-            const string template = "{0}:{1}";
-            string request = string.Format(template, host, requestPort);
-            string dealer = string.Format(template, host, dealerPort);
-            string subscribe = string.Format(template, host, subscribePort);
-            return Create(accountNo, password, request, dealer, subscribe);
-        }
-        public static TradeClient Create(string accountNo, string password, string requestAddress, string dealerAddress, string subscribeAddress)
-        {
-            TradeClient client = new TradeClient(requestAddress, dealerAddress, subscribeAddress);
-            client.Login(accountNo, password);
-            clients[accountNo] = client;
-            return client;
-        }
-        #endregion
-
         #region events
         public delegate void Logger(String text);
 
@@ -250,8 +214,7 @@ namespace trade.client.Trade
         {
             var order = new PlaceBatchOrder()
             {
-                AccountNo = AccountNo,
-                OrderCounte = (uint)items.Count
+                AccountNo = AccountNo
             };
             items.ForEach(order.OrderList.Add);
             BatchOrder(order);
@@ -370,10 +333,11 @@ namespace trade.client.Trade
         #endregion
 
         #region QueryPositions
-
+        
         public QueryPositionResponse QueryPositions(
             Exchange exchange = Exchange.Undefined,
-            string code = ""
+            string code = "",
+            QueryPagination pagination = null
             )
         {
             return
@@ -382,7 +346,8 @@ namespace trade.client.Trade
                     {
                         AccountNo = AccountNo,
                         Code = code,
-                        Exchange = exchange
+                        Exchange = exchange,
+                        Pagination = pagination??new QueryPagination() { Size = 100 }
                     });
         }
         public QueryPositionResponse QueryPositions(QueryPositionRequest payload)
@@ -412,7 +377,8 @@ namespace trade.client.Trade
             OrderSide side = OrderSide.Undefined,
             string code = "",
             string exchangeId = "",
-            string originalId = ""
+            string originalId = "",
+            QueryPagination pagination = null
             )
         {
             return
@@ -425,7 +391,8 @@ namespace trade.client.Trade
                         OrderOriginalId = originalId,
                         OrderSide = side,
                         QueryCriteria = criteria,
-                        Exchange = exchange
+                        Exchange = exchange,
+                        Pagination = pagination??new QueryPagination() { Size = 100 }
                     });
         }
         public QueryOrdersResponse QueryOrder(QueryOrdersRequest payload)
@@ -452,10 +419,11 @@ namespace trade.client.Trade
         public QueryFillsResponse QueryFill(
             Exchange exchange = Exchange.Undefined,
             OrderSide side = OrderSide.Undefined,
-            string code = "", 
-            string exchangeId = "", 
+            string code = "",
+            string exchangeId = "",
             string originalId = "",
-            bool includeCancelFill = true
+            bool includeCancelFill = true,
+            QueryPagination pagination = null
             )
         {
             return
@@ -468,7 +436,8 @@ namespace trade.client.Trade
                         OrderOriginalId = originalId,
                         OrderSide = side,
                         IncludeCancelFill = includeCancelFill,
-                        Exchange = exchange
+                        Exchange = exchange,
+                        Pagination = pagination??new QueryPagination() { Size = 100 }
                     });
         }
         public QueryFillsResponse QueryFill(QueryFillsRequest payload)
@@ -501,7 +470,7 @@ namespace trade.client.Trade
                 new RequestHeader()
                 {
                     ApiId = apiId,
-                    Token = Token == null?"":Token,
+                    Token = Token ?? "",
                     RequestId = Guid.NewGuid().ToString()
                 };
         }

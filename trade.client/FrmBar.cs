@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace trade.client
 {
     public partial class FrmBar : Form
     {
-        List<Form> forms = new List<Form>();
+        private List<Form> forms = new List<Form>();
+        private bool FormMoveFlag = false;
+        private Point FormMoveOffset;
 
         public FrmBar()
         {
@@ -16,10 +19,10 @@ namespace trade.client
 
         private void InitToolbar()
         {
-            toolStrip.Items.Clear();
+            QuickBar.Items.Clear();
             foreach(var pair in FunctionList.QuickBar)
             {
-                toolStrip.Items.Add(BindButton(pair.Key, pair.Value));
+                QuickBar.Items.Add(BindButton(pair.Key, pair.Value));
             }
         }
 
@@ -61,7 +64,44 @@ namespace trade.client
             {
 
             }
-            
+        }
+
+        private void ButtonExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void MoveForm_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left) return;
+            FormMoveOffset = new Point(-e.X, -e.Y);
+            Console.WriteLine(string.Format("Offset {0}", FormMoveOffset));
+            FormMoveFlag = true;
+        }
+
+        private void MoveForm_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (!FormMoveFlag) return;
+            Point location = MousePosition;
+            Console.WriteLine(string.Format("Move Location {0}", location));
+            location.Offset(FormMoveOffset.X, FormMoveOffset.Y);
+            Console.WriteLine(string.Format("Move Offset Location {0}", location));
+            Location = location;
+        }
+
+        private void MoveForm_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (FormMoveFlag) FormMoveFlag = false;
+        }
+
+        private void Menus_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            if (FormMoveFlag) FormMoveFlag = false;
+        }
+
+        private void MenuExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

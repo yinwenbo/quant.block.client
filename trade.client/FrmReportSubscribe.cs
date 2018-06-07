@@ -23,7 +23,7 @@ namespace trade.client
 
         private void InitSubscirbe()
         {
-            TradeClient.Clients().ForEach((client) => {
+            TradeFacade.Clients().ForEach((client) => {
                 client.PlaceReportReceived += On_PlaceReportReceived;
                 client.FillReportReceived += On_FillReportReceived;
                 client.CancelReportReceived += On_CancelReportReceived;
@@ -32,7 +32,7 @@ namespace trade.client
 
         private void ReleaseSubscribe()
         {
-            TradeClient.Clients().ForEach((client) => {
+            TradeFacade.Clients().ForEach((client) => {
                 client.PlaceReportReceived -= On_PlaceReportReceived;
                 client.FillReportReceived -= On_FillReportReceived;
                 client.CancelReportReceived -= On_CancelReportReceived;

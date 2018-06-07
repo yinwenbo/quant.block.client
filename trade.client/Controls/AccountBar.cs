@@ -38,7 +38,7 @@ namespace trade.client
         {
             string selectedItem = comboAccountNo.Text;
             comboAccountNo.Items.Clear();
-            TradeClient.Accounts().ForEach((item) => { comboAccountNo.Items.Add(item); });
+            TradeFacade.Accounts().ForEach((item) => { comboAccountNo.Items.Add(item); });
             if (comboAccountNo.Items.Count > 0 && string.IsNullOrEmpty(selectedItem))
             {
                 comboAccountNo.SelectedIndex = 0;
@@ -51,7 +51,7 @@ namespace trade.client
 
         private void comboAccountNo_TextChanged(object sender, EventArgs e)
         {
-            ChangeCurrent(TradeClient.GetClient(comboAccountNo.Text));
+            ChangeCurrent(TradeFacade.GetClient(comboAccountNo.Text));
         }
 
         private void ChangeCurrent(TradeClient client)

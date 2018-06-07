@@ -23,7 +23,7 @@ namespace trade.client
         public FrmETF()
         {
             InitializeComponent();
-            StockFaced.QuoteCache.OnCacheUpdated += OnStockUpdated;
+            StockFacade.QuoteCache.OnCacheUpdated += OnStockUpdated;
             gridBasket.RowStateChanged += RowAdded;
         }
 
@@ -110,8 +110,8 @@ namespace trade.client
             if (etf == null) return;
             var orders = new List<Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem>();
             etf.Items.ForEach((item) => {
-                Stock stock = StockFaced.GetStock(item.Code);
-                StockQuote quote = StockFaced.GetQuote(item.Code);
+                Stock stock = StockFacade.GetStock(item.Code);
+                StockQuote quote = StockFacade.GetQuote(item.Code);
                 if (stock == null|| quote == null) return;
                 if (!string.Equals(item.ReplaceFlag, "1")) return;
                 orders.Add(
@@ -134,7 +134,7 @@ namespace trade.client
             if (etf == null) return;
             var orders = new List<Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem>();
             etf.Items.ForEach((item) => {
-                StockQuote stock = StockFaced.GetQuote(item.Code);
+                StockQuote stock = StockFacade.GetQuote(item.Code);
                 if (item.Available == 0) return;
                 orders.Add(
                     Trader.NewBatchOrderItem(
