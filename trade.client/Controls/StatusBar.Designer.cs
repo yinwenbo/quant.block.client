@@ -32,6 +32,7 @@
             this.TradeMessage = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.QuoteMessage = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.Status.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,7 +41,8 @@
             this.Status.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TradeMessage,
             this.toolStripStatusLabel2,
-            this.QuoteMessage});
+            this.QuoteMessage,
+            this.toolStripDropDownButton1});
             this.Status.Location = new System.Drawing.Point(0, 0);
             this.Status.Name = "Status";
             this.Status.Size = new System.Drawing.Size(766, 22);
@@ -67,6 +69,14 @@
             this.QuoteMessage.Size = new System.Drawing.Size(97, 17);
             this.QuoteMessage.Text = "QuoteMessage";
             // 
+            // toolStripDropDownButton1
+            // 
+            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(13, 20);
+            this.toolStripDropDownButton1.Text = "toolStripDropDownButton1";
+            // 
             // StatusBar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -89,5 +99,6 @@
         private System.Windows.Forms.ToolStripStatusLabel TradeMessage;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripStatusLabel QuoteMessage;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
     }
 }

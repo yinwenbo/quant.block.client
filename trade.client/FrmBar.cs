@@ -74,7 +74,9 @@ namespace trade.client
         private void MoveForm_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button != MouseButtons.Left) return;
-            FormMoveOffset = new Point(-e.X, -e.Y);
+            int x = MousePosition.X - Left;
+            int y = MousePosition.Y - Top;
+            FormMoveOffset = new Point(-x, -y);
             Console.WriteLine(string.Format("Offset {0}", FormMoveOffset));
             FormMoveFlag = true;
         }
