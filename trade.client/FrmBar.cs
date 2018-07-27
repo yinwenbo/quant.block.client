@@ -1,15 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace trade.client
 {
     public partial class FrmBar : Form
     {
+        [DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
+ 
+        [DllImport("user32.dll")]
+        public static extern bool SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
+ 
+        private const int VM_NCLBUTTONDOWN = 0XA1;//定义鼠标左键按下
+        private const int HTCAPTION = 2;
+
         private List<Form> forms = new List<Form>();
-        private bool FormMoveFlag = false;
-        private Point FormMoveOffset;
 
         public FrmBar()
         {
@@ -74,31 +82,16 @@ namespace trade.client
         private void MoveForm_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button != MouseButtons.Left) return;
-            int x = MousePosition.X - Left;
-            int y = MousePosition.Y - Top;
-            FormMoveOffset = new Point(-x, -y);
-            Console.WriteLine(string.Format("Offset {0}", FormMoveOffset));
-            FormMoveFlag = true;
+            //为当前应用程序释放鼠标捕获
+            ReleaseCapture();
+            //发送消息 让系统误以为在标题栏上按下鼠标
+            SendMessage((IntPtr)this.Handle, VM_NCLBUTTONDOWN, HTCAPTION, 0);
         }
 
-        private void MoveForm_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (!FormMoveFlag) return;
-            Point location = MousePosition;
-            Console.WriteLine(string.Format("Move Location {0}", location));
-            location.Offset(FormMoveOffset.X, FormMoveOffset.Y);
-            Console.WriteLine(string.Format("Move Offset Location {0}", location));
-            Location = location;
-        }
-
-        private void MoveForm_MouseUp(object sender, MouseEventArgs e)
-        {
-            if (FormMoveFlag) FormMoveFlag = false;
-        }
 
         private void Menus_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            if (FormMoveFlag) FormMoveFlag = false;
+            
         }
 
         private void MenuExit_Click(object sender, EventArgs e)

@@ -58,8 +58,6 @@
             this.Menus.TabIndex = 0;
             this.Menus.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.Menus_ItemClicked);
             this.Menus.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseDown);
-            this.Menus.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseMove);
-            this.Menus.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseUp);
             // 
             // MainMenu
             // 
@@ -88,8 +86,6 @@
             this.QuickBar.Stretch = true;
             this.QuickBar.TabIndex = 0;
             this.QuickBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseDown);
-            this.QuickBar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseMove);
-            this.QuickBar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseUp);
             // 
             // TopPanel
             // 
@@ -103,8 +99,6 @@
             this.TopPanel.Size = new System.Drawing.Size(834, 30);
             this.TopPanel.TabIndex = 2;
             this.TopPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseDown);
-            this.TopPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseMove);
-            this.TopPanel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseUp);
             // 
             // ButtonExit
             // 
@@ -150,8 +144,6 @@
             this.TitlePanel.Size = new System.Drawing.Size(30, 30);
             this.TitlePanel.TabIndex = 0;
             this.TitlePanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseDown);
-            this.TitlePanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseMove);
-            this.TitlePanel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseUp);
             // 
             // Icon
             // 
@@ -162,8 +154,6 @@
             this.Icon.Size = new System.Drawing.Size(26, 26);
             this.Icon.TabIndex = 0;
             this.Icon.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseDown);
-            this.Icon.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseMove);
-            this.Icon.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseUp);
             // 
             // FrmBar
             // 
@@ -181,8 +171,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmNavBar_FormClosed);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseDown);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseMove);
-            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MoveForm_MouseUp);
             this.Menus.ResumeLayout(false);
             this.Menus.PerformLayout();
             this.TopPanel.ResumeLayout(false);
