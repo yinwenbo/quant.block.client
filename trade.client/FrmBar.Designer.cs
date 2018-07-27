@@ -72,7 +72,7 @@
             // MenuExit
             // 
             this.MenuExit.Name = "MenuExit";
-            this.MenuExit.Size = new System.Drawing.Size(180, 22);
+            this.MenuExit.Size = new System.Drawing.Size(100, 22);
             this.MenuExit.Text = "退出";
             this.MenuExit.Click += new System.EventHandler(this.MenuExit_Click);
             // 
@@ -110,6 +110,7 @@
             // 
             this.ButtonExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ButtonExit.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ButtonExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ButtonExit.FlatAppearance.BorderSize = 0;
             this.ButtonExit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.OrangeRed;
             this.ButtonExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

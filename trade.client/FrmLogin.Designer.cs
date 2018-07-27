@@ -101,7 +101,7 @@
             this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.panel1);
-            this.panel2.Location = new System.Drawing.Point(12, 12);
+            this.panel2.Location = new System.Drawing.Point(7, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(216, 65);
             this.panel2.TabIndex = 12;
@@ -138,7 +138,7 @@
             this.grpAccount.Controls.Add(this.Login);
             this.grpAccount.Controls.Add(this.txtPassword);
             this.grpAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.grpAccount.Location = new System.Drawing.Point(12, 83);
+            this.grpAccount.Location = new System.Drawing.Point(7, 83);
             this.grpAccount.Name = "grpAccount";
             this.grpAccount.Size = new System.Drawing.Size(216, 170);
             this.grpAccount.TabIndex = 15;
@@ -223,7 +223,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(617, 265);
+            this.ClientSize = new System.Drawing.Size(615, 265);
             this.Controls.Add(this.grpAccount);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox1);

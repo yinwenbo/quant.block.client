@@ -134,13 +134,23 @@ namespace trade.client
             if (etf == null) return;
             var orders = new List<Dwjk.Dtp.PlaceBatchOrder.Types.BatchOrderItem>();
             etf.Items.ForEach((item) => {
-                StockQuote stock = StockFacade.GetQuote(item.Code);
+                
                 if (item.Available == 0) return;
+                var stock = StockFacade.GetStock(item.Code);
+                var quote = StockFacade.GetQuote(item.Code);
+                var exchange = Dwjk.Dtp.Exchange.ShA;
+                if (stock != null)
+                    exchange = stock.SecurityId.Exchange == Exchange.Sh ? Dwjk.Dtp.Exchange.ShA : Dwjk.Dtp.Exchange.SzA;
+                else
+                    exchange = item.Code.StartsWith("6") ? Dwjk.Dtp.Exchange.ShA : Dwjk.Dtp.Exchange.SzA;
+                var price = "0.00";
+                if (quote != null)
+                    price = quote.LowLimited.ToString();
                 orders.Add(
                     Trader.NewBatchOrderItem(
-                        stock.SecurityId.Exchange == Exchange.Sh ? Dwjk.Dtp.Exchange.ShA : Dwjk.Dtp.Exchange.SzA,
+                        exchange,
                         item.Code,
-                        stock.LowLimited.ToString(),
+                        price,
                         (uint)item.Quantity,
                         Dwjk.Dtp.OrderSide.Sell
                     ));

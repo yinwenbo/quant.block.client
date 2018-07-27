@@ -24,50 +24,26 @@ namespace trade.client.Trade
         public const int ID_S_ACCOUNT_LOGOUT_REQT = 10001002;
         public const int ID_S_ACCOUNT_LOGOUT_RESP = 11001002;
 
-        //login query
-        public const int ID_S_ACCOUNT_Q_LOGIN_REQT = 11000003;
-        public const int ID_S_ACCOUNT_Q_LOGIN_RESP = 11100003;
-
-        public const int ID_S_ACCOUNT_RELOGIN_REQT = 11000004;
-        public const int ID_S_ACCOUNT_RELOGIN_RESP = 11100004;
-
         //单笔委托
         public const int ID_S_ORDER_REQT = 10002001;
         public const int ID_S_ORDER_RESP = 11101001;
         // Report
         public const int ID_STOCK_PLACE_REPORT = 20001001;
         public const int ID_STOCK_FILL_REPORT = 20001002;
-
+        public const int ID_STOCK_CANCEL_REPORT = 20001003;
 
         //批量委托
-        public const int ID_S_ORDERS_REQT = 11001003;
-        public const int ID_S_ORDERS_RESP = 11101003;
-
-        //申购赎回
-        public const int ID_S_CREATE_REDEEM_REQT = 11001003;
-        public const int ID_S_CREATE_REDEEM_RESP = 11101003;
+        public const int ID_S_ORDERS_REQT = 10002003;
+        public const int ID_S_ORDERS_RESP = 11002003;
 
         //单笔撤单
         public const int ID_S_DELETE_REQT = 10002002;
-        public const int ID_STOCK_CANCEL_REPORT = 20001003;
-
-        //批量撤单
-        public const int ID_S_DELETES_REQT = 11001004;
-        public const int ID_S_DELETES_RESP = 11101004;
-
-        //单笔委托查询
-        public const int ID_S_Q_ORDER_REQT = 10003001;
-        public const int ID_S_Q_ORDER_RESP = 11003001;
-
-        //批量委托查询
+        
+        
+        //委托查询
         public const int ID_S_Q_ORDERS_REQT = 10003001;
         public const int ID_S_Q_ORDERS_RESP = 11003001;
 
-        public const int ID_S_Q_ETF_BASIC_INFO_REQT = 11002008;
-        public const int ID_S_Q_ETF_BASIC_INFO_RESP = 11102008;
-
-        public const int ID_S_Q_ETF_BASKET_LIST_REQT = 11002009;
-        public const int ID_S_Q_ETF_BASKET_LIST_RESP = 11102009;
 
         //资金查询
         public const int ID_S_Q_CAPITAL_REQT = 10003003;
@@ -82,13 +58,10 @@ namespace trade.client.Trade
         public const int ID_S_Q_DEAL_RESP = 11003002;
 
 
-
         //新股申购额度查询请求
-        public const int ID_S_Q_IPOR_REQT = 11002005;
-        public const int ID_S_Q_IPOR_RESP = 11102005;
+        public const int ID_S_Q_IPOR_REQT = 10005001;
+        public const int ID_S_Q_IPOR_RESP = 11005001;
 
-        public const int ID_S_Q_IPOL_REQT = 11002006;
-        public const int ID_S_Q_IPOL_RESP = 11102006;
         #endregion
 
         #region events
@@ -136,8 +109,11 @@ namespace trade.client.Trade
             if (count < 3) return;
 
             string accountNo = message.Pop().ConvertToString();
-            ReportHeader header = ReportHeader.Parser.ParseFrom(message.Pop().ToByteArray());
+            var msgHeader = message.Pop().ToByteArray();
             var payload = message.Pop();
+
+            ReportHeader header = ReportHeader.Parser.ParseFrom(msgHeader);
+            
             if (header.ApiId == ID_STOCK_PLACE_REPORT)
             {
                 PlacedReport report = PlacedReport.Parser.ParseFrom(payload.ToByteArray());

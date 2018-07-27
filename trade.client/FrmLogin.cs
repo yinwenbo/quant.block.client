@@ -15,8 +15,8 @@ namespace trade.client
 {
     public partial class FrmLogin : Form
     {
-        private const int ConfigWidth = 638;
-        private const int LoginWidth = 256;
+        private const int ConfigWidth = 631;
+        private const int LoginWidth = 245;
 
         private ConfigLoader ConfigLoader = ConfigLoader.Load();
         public FrmLogin()

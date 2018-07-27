@@ -36,6 +36,7 @@ namespace trade.client.Trade
 
         private void _Subscire_ReceiveReady(object sender, NetMQSocketEventArgs e)
         {
+            
             var msg = subscriber.ReceiveMultipartMessage();
             OnSubscribeRecieved?.Invoke(msg);
         }
